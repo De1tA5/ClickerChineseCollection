@@ -1,0 +1,4 @@
+displayName = 点击者附属汉化合集
+author = 三杯伍迪
+version = 0.0.1.0
+sortAfter = ClickersGloves,RedemptionClickers,CalamityClickers

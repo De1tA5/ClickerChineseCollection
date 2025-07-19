@@ -1,0 +1,976 @@
+Mods: {
+	CalamityClickers: {
+		ClickEffect: {
+			#Pre-Hardmode
+			BasicAutoclicker: {
+				Name: 基础自动连点
+				Description: 每7.5秒自动点击（右键单击进行切换）
+			}
+
+			Sandstorm: {
+				Name: 沙尘暴
+				Description: 造成沙爆
+			}
+
+			SeaBubble: {
+				Name: 海泡
+				Description: 生成一个向上缓慢飘浮造成伤害的泡泡
+			}
+
+			Mushy: {
+				Name: 菌生
+				Description: 获得2秒的[c/34A8EB:与菇共生]效果
+			}
+
+			SulphurousBubbles: {
+				Name: 硫海泡
+				Description: 生成4-5个泡泡，点击泡泡造成范围伤害并施加[c/008000:辐射]减益
+			}
+
+			BloodyExplosion: {
+				Name: 血液爆裂
+				Description: 造成血液爆破，并施加[c/DE041A:血液沸腾]减益
+			}
+
+			BrainExplosion: {
+				Name: 腐脑爆裂
+				Description: 造成腐烂爆破，并施加[c/006400:大脑溃烂]减益
+			}
+
+			FeatherRain: {
+				Name: 羽之雨
+				Description: 召唤会爆炸的羽毛从天而降到光标处
+			}
+
+			ReelIn: {
+				Name: 拉线
+				Description: 召唤点击鱼，杀死他增加点击伤害25%，持续10秒（bug还没修）
+			}
+
+			SlimePuppet: {
+				Name: 凝胶傀儡
+				Description: 生成一个凝胶球，它会在短时间内向光标处冲刺
+			}
+
+			# Hardmode
+			GaussFlux: {
+				Name: 高斯脉冲
+				Description: 制造磁力湍流
+			}
+
+			BrimstoneInferno: {
+				Name: 硫火地狱
+				Description: 造成五芒星爆破，并施加[c/F5334D:硫磺火]减益
+			}
+
+			CryoBomb: {
+				Name: 极地爆弹
+				Description: 在光标处召唤一个冷冻炸弹，点击该炸弹可以释放碎片
+			}
+
+			DaedalusCrystals: {
+				Name: 代达罗斯水晶
+				Description: 召唤会追踪敌人的代达罗斯光束
+			}
+
+			Crunch: {
+				Name: 碎甲
+				Description: 对最近的敌人施加3秒的[c/828D94:碎甲]减益
+			}
+
+			ChaosFlame: {
+				Name: 混沌之火
+				Description: 创造一个小型火焰传送门，并施加[c/F5334D:硫磺火]减益
+			}
+
+			#Post-Plantera
+			TerraAura: {
+				Name: 泰拉光环
+				Description: 创造一个持续3秒的泰拉光环
+			}
+
+			GreenInfection: {
+				Name: 绿色瘟疫
+				Description: 发射 {0} 道燃烧的绿色灵液射弹
+			}
+
+			AnahitasVoice: {
+				Name: 阿娜希塔之声
+				Description: 生成一个音符圈
+			}
+
+			CoolFlake: {
+				Name: 雪花
+				Description: 召唤一个停留在原地的雪花，只能存在一个，再次触发点击效果则会延长存在时间
+			}
+
+			AureusBlast: {
+				Name: 白金波动
+				Description: 向光标处附近的每个敌人发射白金冲击波,对单个目标有不同效果
+			}
+
+			StellarScythe: {
+				Name: 星幻飞镰
+				Description: 生成一个向你的光标方向加速的星幻飞镰
+			}
+
+			# Post-Golem
+			PlagueBees: {
+				Name: 瘟疫蜜蜂
+				Description: 召唤大量的瘟疫蜜蜂，瘟疫蜜蜂会施加[c/228B22:瘟疫]减益
+			}
+
+			Eruption: {
+				Name: 喷发
+				Description: 光标处生成持续伤害的爆炸领域
+			}
+
+			StarRain: {
+				Name: 星之雨
+				Description: 召唤4颗幻星到光标处
+			}
+
+			Stardust: {
+				Name: 星尘
+				Description: 在光标处释放星尘
+			}
+
+			Entropy: {
+				Name: 熵能
+				Description: 在光标处产生一个巨大的冥思能量爆炸
+			}
+
+			BloodBlasts: {
+				Name: 血液爆炸
+				Description: 生成8个射向光标的血液射弹
+			}
+
+			TaurusFang: {
+				Name: 狂鲨獠牙
+				Description: 生成13只旱海狂鲨之牙追踪并撕裂敌人
+			}
+
+			# Post-Moonlord
+			# Early Stage
+			
+			ElementalAura: {
+				Name: 元素光环
+				Description: 创造一个持续2秒的元素光环，并施加持续1秒的[c/FFFA8C:元][c/F112FE:素][c/00B2F5:谐][c/00CC92:鸣]减益
+			}
+
+			PlagueBees2: {
+				Name: "{$Mods.CalamityClickers.ClickEffect.PlagueBees.Name}"
+				Description: "{$Mods.CalamityClickers.ClickEffect.PlagueBees.Description}"
+			}
+
+			RedLightning: {
+				Name: 赤红闪电
+				Description: 召唤4道从天而降的闪电
+			}
+
+			#Post-Providence
+			ProfanedInferno: {
+				Name: 亵渎炼狱
+				Description: 造成神圣之火爆破，并施加持续3秒的[c/FCD200:神圣之火]减益
+			}
+
+			TarragonThorns: {
+				Name: 龙蒿荆棘
+				Description: 在光标处产生向8个方向长出荆棘
+			}
+
+			Judgement: {
+				Name: 审判
+				Description: 从天而降的神圣死亡射线将惩戒你的敌人
+			}
+
+			NovaSlimer: {
+				Name: 星凝
+				Description: 召唤追踪敌人的新星史莱姆
+			}
+
+			# Post-Polterghast
+			GhastlyPortal: {
+				Name: 惊魂之门
+				Description: 召唤惊魂之门，每次点击都会从惊魂之门释放追踪幽魂
+			}
+
+			StratusMoon: {
+				Name: 幻云月
+				Description: 召唤7个新月，停留一段时间后朝光标处冲刺
+			}
+
+			Lifestealing: {
+				Name: 生命窃取
+				Description: 每点击一次回复2点生命
+			}
+
+			BloodyKnives: {
+				Name: 血炎飞刀
+				Description: 生成8把刀，在击中时卡住，施加[c/DE041A:血液沸腾]和[c/B216D9:死亡标记]减益
+			}
+
+			PhantasmalReach: {
+				Name: 幻魂之触
+				Description: 根据光标与玩家的距离改变伤害（在玩家位置为0.75倍，在屏幕角落为1.75倍）
+			}
+
+			# Post-DoG
+			NebulaStars: {
+				Name: 星云恒星
+				Description: 召唤一圈小星云并在一会追踪敌人
+			}
+
+			Distort: {
+				Name: 扭曲
+				Description: 光标处扭曲时空，召唤出一群飞刀，它们会对你的点击做出反应
+			}
+
+			NightmareMagic: {
+				Name: 梦魇魔法
+				Description: 随机造成一项点击效果
+			}
+
+			Totality2: {
+				Name: 日全食
+				Description: 召唤一个微型日食，并对周围的敌人不断发射射弹
+			}
+
+			NuclearExplosion: {
+				Name: 核爆
+				Description: BOOM!
+			}
+
+			# Post-Yharon
+			PhoenixWrath: {
+				Name: 凤凰之怒
+				Description: 召唤愤怒的凤凰，用火焰轰炸并施加[c/ff5500:龙炎]减益
+			}
+
+			MiceCatalyst: {
+				Name: 催化鼠标
+				Description: 召唤一个催化星云，生成向光标位置追踪的射弹
+			}
+
+			Popstar: {
+				Name: 流星
+				Description: 从天坠落欧米伽之星并在光标位置分裂3轮星星
+			}
+
+			# Pre-Endgame Bosses
+			MiniExoTwins: {
+				Name: 奥林匹斯的召唤
+				Description: 召唤迷你阿尔忒弥斯和迷你阿波罗围绕光标攻击
+			}
+
+			Exomination: {
+				Name: 星流迸发
+				Description: 产生大范围的星流爆炸
+			}
+
+			LecherousOrb: {
+				Name: 淫欲之眼
+				Description: 消耗20生命生成淫欲之眼，点击可释放积累的生命能量
+			}
+
+			# Endgame
+			ItzClick: {
+				Name: Itz的点击
+				Description: 对附近敌人施加巨额伤害的减益（百分比伤害）
+			}
+
+			Mischief: {
+				Name: 恶作剧
+				Description: 召唤一个迷你鼠标点击者，并触发在背包中离该武器最近的点击器的点击效果（恶作剧除外）
+			}
+
+			# Equip
+			DaedalusLightning: {
+				Name: 代达罗斯闪电
+				Description: 从天空吸引代达罗斯的力量（创造闪电）
+			}
+
+			BurnOrBliss: {
+				Name: 燃烧或极乐
+				Description: 释放出大量能造成伤害的多种巧克力
+			}
+
+			# Draedon
+			ScrapMissile: {
+				Name: 废料导弹
+				Description: 从天空向下发射一枚导弹，撞击目标时粉炸裂
+			}
+
+			DrillShot: {
+				Name: 钻头发射
+				Description: 射击一个能抓住敌人的钻头
+			}
+
+			Electrofield: {
+				Name: 电磁感应
+				Description: 召唤一个击中敌人会不断扩展的电磁场
+			}
+
+			VitalInfusion: {
+				Name: 生命输液
+				Description: 在玩家头顶生成注射器，每个注射右键回复25点生命
+			}
+
+			CurrentStrike: {
+				Name: 电流打击
+				Description: 发射强大的电离粒子流穿过敌人
+			}
+		}
+
+		Items: {
+			Armor: {
+				Capsuit: {
+					VictideCapsuit: {
+						DisplayName: 胜潮连帽
+						Tooltip: 增加5%点击伤害
+						SetBonus:
+							'''
+							增加10%点击范围
+							在液体中时获得+1.5生命恢复和10%点击伤害加成
+							'''
+					}
+
+					AerospecCapsuit: {
+						DisplayName: 天蓝连帽
+						Tooltip:
+							'''
+							增加8%点击伤害
+							增加15%点击范围
+							'''
+						SetBonus:
+							'''
+							一次性受到超过25点伤害会召唤追踪羽毛从天而降
+							增加下落速度，免疫摔落伤害
+							增加5%点击暴击率
+							'''
+					}
+
+					StatigelCapsuit: {
+						DisplayName: 斯塔提斯连帽
+						Tooltip:
+							'''
+							增加10%点击伤害
+							增加7%点击暴击率
+							增加25%点击范围
+							'''
+						SetBonus:
+							'''
+							一次性受到超过100点伤害时，获得额外的无敌帧
+							获得一段额外跳跃并增加跳跃高度
+							增加12%跳跃速度
+							'''
+					}
+
+					DaedalusCapsuit: {
+						DisplayName: 代达罗斯连帽
+						Tooltip:
+							'''
+							增加8%点击伤害
+							增加7%点击暴击率
+							增加25%点击范围
+							'''
+						SetBonus:
+							'''
+							点击器有[c/813F81A:达罗斯闪电]的效果
+							增加5%点击伤害
+							'''
+					}
+
+					HydrothermicCapsuit: {
+						DisplayName: 渊泉连帽
+						Tooltip:
+							'''
+							增加12%点击伤害
+							增加10%点击暴击率
+							增加25%点击范围
+							'''
+						SetBonus:
+							'''
+							生命值低于50%时获得狱火药水效果
+							受伤时产生巨大爆炸
+							增加5%点击伤害
+							用点击器会施加[c/EB4E00:渊泉爆沸]减益
+							[c/EB4E00:渊泉爆沸]是持续伤害减益具有50点基础伤害 
+							使用点击器增加减益每秒5点伤害并延长1秒
+							最高造成每秒500点伤害和20秒时间
+							该减益效果类似
+							'''
+					}
+
+					IntergelacticCapsuit: {
+						DisplayName: 异宇星凝面盔
+						Tooltip:
+							'''
+							增加15%点击伤害和暴击率
+							增加30%点击范围
+							'''
+						SetBonus:
+							'''
+							在你周围召唤两个由小行星组成的星环，星环的伤害取决于你的伤害增幅
+							按下'{$Mods.CatalystMod.Keybinds.ToggleVisibility}'使星环透明
+							使用点击器使小行星飞离星环追踪敌人
+							使用点击器武器从传送带上飞行小行星
+							小行星可以随着时间的推移或使用点击器再生
+							'''
+					}
+
+					TarragonCapsuit: {
+						DisplayName: 龙蒿连帽
+						Tooltip:
+							'''
+							增加10%点击伤害
+							增加5%点击暴击率
+							增加25%点击范围
+							增加5%伤害减免
+							'''
+						SetBonus:
+							'''
+							增加红心拾取范围
+							敌人死亡时有几率额外掉落红心
+							用点击器攻击敌人增加1点防御和0.2%伤害减免，并使该增益延长1秒
+							最高获得50点防御和20%伤害减免，持续20秒
+							受到伤害重置该增益，获得10秒中冷却并放出龙蒿荆棘
+							'''
+					}
+
+					BloodflareCrimeraCapsuit: {
+						DisplayName: 血煞嵌合盔
+						Tooltip:
+							'''
+							增加10%点击伤害和暴击率
+							增加35%点击范围
+							'''
+						SetBonus:
+							'''
+							大幅增加生命再生，等同与猩红盔甲
+							击中一个生命值低于50%的敌人会掉落红心
+							这个效果有5秒冷却
+							根据你当前的生命值减少对应触发点击效果所需要的点击次数
+							最多减少20%
+							使用点击器
+							'''
+					}
+
+					GodSlayerCapsuit: {
+						DisplayName: 弑神者连帽
+						Tooltip:
+							'''
+							增加14%点击伤害和暴击率
+							增加45%点击范围
+							减少10%点击效果所需要的点击次数
+							'''
+						SetBonus:
+							'''
+							若每次攻击非暴击，点击暴击几率增加1%
+							暴击后效果重置
+							50次点击暴击，使用者获得[c/D75FF5:究极激发]使得之后每次点击造成暴击
+							[c/D75FF5:究极激发]有30秒的冷却
+							'''
+					}
+
+					AuricTeslaRadarCapsuit: {
+						DisplayName: 金璇磁源盔
+						Tooltip:
+							'''
+							增加30%点击伤害和暴击率
+							增加100%点击范围
+							减少10%点击效果所需要的点击次数
+							'''
+						SetBonus: 获得点击者龙蒿套装，血炎套装和弑神者套装的套装奖励
+					}
+
+					AuricTeslaPlusRadarCapsuit: {
+						DisplayName: "{$Mods.CalamityClickers.Items.Armor.Capsuit.AuricTeslaRadarCapsuit.DisplayName}"
+						Tooltip: "{$Mods.CalamityClickers.Items.Armor.Capsuit.AuricTeslaRadarCapsuit.Tooltip}"
+						SetBonus:
+							'''
+							获得点击者异宇星凝套装，血炎套装和弑神者套装的套装奖励
+							按下'{$Mods.CatalystMod.Keybinds.ToggleVisibility}'使星环透明
+							'''
+					}
+				}
+
+				Vanity: {
+					ReaverCapsuit: {
+						DisplayName: 掠夺者连帽
+						Tooltip: ""
+					}
+
+					SilvaCapsuit: {
+						DisplayName: 始源林海连帽
+						Tooltip: ""
+					}
+				}
+			}
+
+			Weapons: {
+				Clicker: {
+					#Pre-hardmode
+					WulfrumClicker: {
+						DisplayName: 钨钢按压设备
+						DisplayNameLegecy: 钨钢点击器
+					}
+
+					ScourgeClicker: {
+						DisplayName: 遗弃颌骨
+						DisplayNameLegecy: 荒灾点击器
+					}
+
+					SeaRemainClicker: {
+						DisplayName: 珍珠离合器
+						DisplayNameLegecy: 遗海点击器
+					}
+
+					MushyClicker: {
+						DisplayName: 真菌搭扣
+						DisplayNameLegecy: 真菌点击器
+					}
+
+					BubbleClicker.DisplayName: 硫磺泡泡戳
+
+					RottenClicker: {
+						DisplayName: 黑腐喷发
+						DisplayNameLegecy: 腐烂点击器
+					}
+
+					FleshyClicker: {
+						DisplayName: 淋血掌骨
+						DisplayNameLegecy: 血肉点击器
+					}
+
+					AeroClicker: {
+						DisplayName: 尖峰
+						DisplayNameLegecy: 天蓝点击器
+					}
+
+					GooClicker: {
+						DisplayName: 凝胶指挥官
+						DisplayNameLegecy: 神凝点击器
+					}
+
+					Clickerfin.DisplayName: 鱼鳍点击器
+
+					# Hardmode
+					CryoClicker: {
+						DisplayName: 霜寒之握
+						DisplayNameLegecy: 极地点击器
+					}
+
+					AquaticClicker: {
+						DisplayName: 褪色颌骨
+						DisplayNameLegecy: 渊海点击器
+					}
+
+					EarthenClicker: {
+						DisplayName: 矿石粉碎者
+						DisplayNameLegecy: 地灵点击器
+					}
+
+					BrimstoneClicker: {
+						DisplayName: 燃火点击器
+						DisplayNameLegecy: 硫火点击器
+					}
+
+					DaedalusClicker: {
+						DisplayName: 星火指针
+						DisplayNameLegecy: 代达罗斯点击器
+					}
+
+					ClickerOfCalamity: {
+						DisplayName: 悲惨余温
+						DisplayNameLegecy: 灾厄点击器
+					}
+
+					#Post-Plantera
+					FeralClicker: {
+						DisplayName: 野性指针
+						DisplayNameLegecy: 野性点击器
+					}
+
+					FloraClicker: {
+						DisplayName: 春华之瓣
+						DisplayNameLegecy: 万华点击器
+					}
+
+					AnahitasClicker: {
+						DisplayName: 遥远旋律
+						DisplayNameLegecy: 阿娜希塔点击器
+					}
+
+					AureusClicker.DisplayName: 白金点击器
+					StellarClicker.DisplayName: 星幻点击器
+					FrostysClicker.DisplayName: 大法师的点击器
+					# Post-Golem
+					ScoriaClicker.DisplayName: 渊泉点击器
+
+					BloodGodsClicker: {
+						DisplayName: 大屠杀
+						DisplayNameLegecy: 血神点击器
+					}
+
+					PlagueClicker: {
+						DisplayName: 瘟疫点击器
+						DisplayNameLegecy: 瘟疫点击器
+					}
+
+					MeldClicker: {
+						DisplayName: 黑斑
+						DisplayNameLegecy: 冥思点击器
+					}
+
+					CosmicStarClicker.DisplayName: 星神点击器
+					StarblightClicker.DisplayName: 炫星点击器
+					GeleomegeddonClicker.DisplayName: 星凝神指
+
+					# Post-Moonlord
+					
+					ElementalClicker: {
+						DisplayName: 元素灵指
+						DisplayNameLegecy: 元素点击器
+					}
+
+					InfestedBeeClicker.DisplayName: 感染蜜蜂点击器
+
+					RedLightningClicker: {
+						DisplayName: 愚龙赤闪
+						DisplayNameLegecy: 赤红闪电点击器
+					}
+
+					# Post-Providence
+					ProfanedClicker: {
+						DisplayName: 渎神极乐
+						DisplayNameLegecy: 亵渎天神点击器
+					}
+
+					BloomClicker: {
+						DisplayName: 扭曲双生
+						DisplayNameLegecy: 绽放点击器
+					}
+
+					BloodstoneClicker: {
+						DisplayName: 嗜血短刀
+						DisplayNameLegecy: 血石点击器
+					}
+
+					HolyGoldenClicker.DisplayName: 圣辉点击器
+
+					# Post-Polterghast
+					RuinousClicker: {
+						DisplayName: 惊惧灭指
+						DisplayNameLegecy: 破灭点击器
+					}
+
+					PolterplasmClicker: {
+						DisplayName: 远方之握
+						DisplayNameLegecy: 幻魂点击器
+					}
+
+					StratusClicker: {
+						DisplayName: 参宿五
+						DisplayNameLegecy: 幻云点击器
+					}
+
+					# Post-DoG
+					ClickerOfGods.DisplayName: 噬神点击器
+
+					CosmiliteClicker: {
+						DisplayName: 维度撕裂者
+						DisplayNameLegecy: 宇宙点击器
+					}
+
+					NightmareClicker.DisplayName: 梦魇点击器
+					DarksunClicker.DisplayName: 暗日点击器
+					#
+					# Post-Yharon
+					PhoenixClicker.DisplayName: 凤凰点击器
+					MiceCatalystClicker.DisplayName: 催化鼠标点击器
+					ClickerNova.DisplayName: 新星点击器
+
+					ExoClicker: {
+						DisplayName: 谐振电源插头
+						DisplayNameLegecy: 星流点击器
+					}
+
+					MiracleClicker.DisplayName: 奇迹点击器
+					CruelClicker.DisplayName: 残酷点击器
+					#
+					# Endgame
+					ItsClicker.DisplayName: Its点击器
+					MarkOfRatKing.DisplayName: 鼠王之证
+					#
+					# Draedon
+					GaussClicker.DisplayName: 高斯点击器
+					NuclearClicker.DisplayName: 核子点击器
+					ScrapPresser.DisplayName: 废料按压器
+					HandheldClickerDrill.DisplayName: 手持点击钻
+					FieldPolorizer.DisplayName: 场域极化者
+					Bioinjector.DisplayName: 生命注射器
+					FusionPointer.DisplayName: 聚变指针
+					BereftVassalsClicker.DisplayName: 狂鲨獠牙
+				}
+			}
+
+			Accessories: {
+				DOG: {
+					Tooltip:
+						'''
+						增加30%点击伤害
+						增加50%点击范围
+						减少20%点击效果所需要的点击次数
+						按下'切换饰品功能'键切换自动连点模式
+						启用自动连点模式将略微降低手动点击的最大效率
+						按下'切换瞄准辅助'键切换自动瞄准，自动锁定附近的敌人
+						如果锁定的敌人死亡或消失，将搜索并锁定下一个敌人
+						'游戏破环者'
+						'''
+					DisplayName: D.o.G
+				}
+
+				FingerOfBloodGod: {
+					Tooltip:
+						'''
+						脱战后的第一次点击将触发点击效果
+						在未进入冷却时间时额外触发一次点击效果
+						触发后进入10秒的冷却
+						'''
+					DisplayName: 血神手指
+				}
+
+				BeetleClickingGlove: {
+					DisplayName: 甲虫点击手套
+					Tooltip:
+						'''
+						{$Mods.ClickerClass.Items.RegalClickingGlove.Tooltip}
+						低于20%生命时增加25%点击伤害
+						施加伤害减益基于你的点击速率
+						'''
+				}
+
+				BloodyChocCookies: {
+					DisplayName: 血腥巧克力饼干
+					Tooltip:
+						'''
+						装备后，曲奇会定期在您的点击范围内生成
+						点击曲奇能够增加你的点击伤害与范围的同时加快生命恢复速度
+						血腥曲奇有概率替换普通曲奇
+						点击血腥曲奇增加点击伤害和暴击并提高怒气槽增长速度
+						根据每秒点击次数最高增加15%点击伤害
+						每15次点击释放出大量能造成伤害的多种巧克力
+						辛辣巧克力能造成更高的伤害并施加[c/F5334D:硫磺火]减益
+						白巧克力在小范围内追踪玩家并回复4点生命值
+						'''
+				}
+
+				SSMedal: {
+					DisplayName: SS奖牌
+					Tooltip:
+						'''
+						装备后，多个赋能圈将围绕着你转
+						将光标保持在外侧赋能圈内对各级勋章充能
+						分别获得最多10次必定暴击、点击范围提升、点击效果次数减少
+						将光标保持在内侧赋能圈同时充能所有勋章
+						全部勋章充能完毕，右键点击内测赋能圈，将释放能量并消耗所有充能
+						'''
+				}
+
+				LihzahrdParticleAccelerator: {
+					DisplayName: 蜥蜴粒子加速器
+					Tooltip:
+						'''
+						在点击范围内靠近自身50%区域点击造成额外10点伤害
+						增加5%点击暴击率
+						点击暴击有20%概率造成3倍伤害
+						'''
+				}
+
+				LunarClickingGlove: {
+					DisplayName: 月神点击手套
+					Tooltip:
+						'''
+						{$Mods.ClickerClass.Items.RegalClickingGlove.Tooltip}
+						在点击范围内靠近自身50%区域点击造成额外25点伤害
+						增加10%点击暴击率
+						点击暴击有20%概率造成3倍伤害
+						'''
+				}
+
+				CosmicClickingGlove: {
+					DisplayName: 寰宇点击手套
+					Tooltip:
+						'''
+						{$Mods.ClickerClass.Items.RegalClickingGlove.Tooltip}
+						在点击范围内靠近自身50%区域点击造成额外100点伤害
+						增加15%点击暴击率
+						点击暴击有20%概率造成3倍伤害
+						{$Mods.CalamityClickers.Items.Accessories.FingerOfBloodGod.Tooltip}
+						'''
+				}
+			}
+
+			SFXButtonCalamity.DisplayName: 音效按钮-灾厄
+			SFXButtonAstral.DisplayName: 音效按钮-星幻
+			SFXButtonAuric.DisplayName: 音效按钮-圣金源
+			SFXButtonExhume.DisplayName: 音效按钮-咒术炼注
+		}
+
+		Projectiles: {
+			Clicker: {
+				SeaRemainClickerProjectile.DisplayName: 海泡
+				ScourgeClickerProjectile.DisplayName: 沙爆
+				FleshyClickerProjectile.DisplayName: 血液爆炸
+				RottenClickerProjectile.DisplayName: 大脑溃烂
+				GooClickerProjectile.DisplayName: 凝胶傀儡
+				GaussClickerProjectile.DisplayName: 高斯脉冲
+				BrimstoneClickerProjectile.DisplayName: 硫火印记
+				CryoClickerProjectile.DisplayName: 极地爆弹
+				MusicalClickerProjectile.DisplayName: 音符
+				EarthenClickerProjectile.DisplayName: 嘎吱
+				FloraClickerProjectile.DisplayName: 万华光环
+				ElementalClickerProjectile.DisplayName: 元素光环
+				FeralClickerProjectile.DisplayName: 燃烧绿色灵液
+				ProfanedClickerProjectile.DisplayName: 亵渎爆炸
+				ClickerOfCalamityProjectile.DisplayName: 混沌之火
+				BloodGodsClickerProjectile.DisplayName: 血神爆炸
+				AureusClickerProjectile.DisplayName: 白金波动
+				RuinousClickerProjectile.DisplayName: 毁灭传送门
+				RuinousClickerProjectileSoul.DisplayName: 毁灭之魂
+				DaedalusClickerProjectile.DisplayName: 代达罗斯水晶
+				StratusClickerProjectile.DisplayName: 幻云月
+				DarksunClickerProjectile.DisplayName: 暗日
+				ClickerOfGodsProjectile.DisplayName: 星云恒星
+				StarblightClickerProjectile.DisplayName: 星尘
+				MiceCatalystClickerProjectile.DisplayName: 催化鼠标星云
+				MiracleClickerProjectile.DisplayName: 星流迸发
+				PhoenixClickerProjectile.DisplayName: 凤凰
+				PhoenixClickerProjectile2.DisplayName: 凤凰吐息
+				StellarClickerProjectile.DisplayName: 星幻飞镰
+				NuclearClickerBoom.DisplayName: 核爆
+				PlagueClickerProjectile.DisplayName: 瘟疫蜜蜂
+				CosmiliteClickerProjectile.DisplayName: 寰宇飞刀
+				CruelClickerProjectile.DisplayName: 淫欲之眼
+				BloodstoneClickerProjectile.DisplayName: 血炎飞刀
+				ExoClickerProjectile.DisplayName: 星流点击器射弹
+				BloodyChocCookiesProjectileCookie.DisplayName: 血腥曲奇
+				BloodyChocCookiesProjectileChocolate.DisplayName: 巧克力碎屑
+				DaedalusCapsuitProjectile.DisplayName: 代达罗斯闪电
+				AstralRocksProjectile.DisplayName: 星岩
+				AstralRocksProjectileFly.DisplayName: 星岩
+				SSMedalProjectile.DisplayName: SS奖牌
+				MarkOfRatKingProjectile.DisplayName: 迷你点击者
+				GeleomegeddonClickerProjectile.DisplayName: 新星史莱姆
+				BubbleClickerProjectile.DisplayName: 酸性泡泡
+				BubbleClickerProjectile2.DisplayName: 辐射光环
+				SSMedalProjectileExplosion.DisplayName: 电子爆炸
+				HolyGoldenClickerProjectile.DisplayName: 神圣死亡射线
+				ClickerNovaProjectile.DisplayName: 欧米伽之星
+				ClickerNovaProjectileSmall.DisplayName: 星星
+				ScrapPresserPro.DisplayName: 废料导弹
+				HandheldClickerDrillPro.DisplayName: 点击钻头
+				FieldPolorizerPro.DisplayName: 电磁场
+				BioinjectorPro.DisplayName: 生命注射器
+				FusionPointerPro.DisplayName: 电离粒子
+				BereftVassalsClickerPro.DisplayName: 狂鲨獠牙
+			}
+		}
+
+		Buffs: {
+			GodSlayerOverclockBuff: {
+				DisplayName: 弑神者超频
+				Description: 你的每次点击都可以触发点击效果，但同时减少伤害
+			}
+
+			WulfrumClickerBuff: {
+				DisplayName: 钨钢自动点击
+				Description: 你现在能自动点击
+			}
+
+			ItsClickerDebuff: {
+				DisplayName: 完全凋零
+				Description: 你不该看到这个
+			}
+
+			BeetleClickingGloveDebuff: {
+				DisplayName: 甲虫点击手套之力
+				Description: 你不该看到这个
+			}
+
+			BloodyChocCookiesBuff: {
+				DisplayName: 血腥曲奇
+				Description: 增加你的点击伤害和暴击并提高怒气槽增长速度
+			}
+
+			GodSlayerCapsuitBuff: {
+				DisplayName: 究极激发
+				Description: 每次点击都是暴击!
+			}
+
+			HydrothermicCapsuitDebuff: {
+				DisplayName: 渊泉爆沸
+				Description: 你不该看到这个
+			}
+
+			ClickerfinBuff: {
+				DisplayName: 点鱼击之怒
+				Description: 增加25%点击伤害
+			}
+		}
+
+		UI: {
+			Cooldowns: {
+				GodSlayerOverclockCooldown: 弑神者超频冷却
+				FingerOfBloodGodCooldown: 血神手指冷却
+				TarragonClickerCooldown: 龙蒿套装效果冷却
+				UltraboostCooldown: 究极激发冷却
+			}
+
+			Enchantments: {
+				Lecherous: {
+					DisplayName: 淫欲之眼
+					Description: 生成一个硫磺怪物处于你和你的鼠标中间，干扰你的武器发射的弹幕。硫磺怪物死亡后会释放很多红心
+				}
+
+				Lecherous2: {
+					DisplayName: 淫欲之眼
+					Description: 生成一个硫磺怪物处于你和你的鼠标中间，干扰你的武器发射的弹幕。硫磺怪物死亡后会释放很多红心
+				}
+			}
+		}
+
+		NPCs: {
+			LecherousOrbClicker.DisplayName: 淫欲之眼
+			ClickerfinNPC.DisplayName: 点击鱼
+
+			ClickerfinNormalNPC: {
+				DisplayName: 点击鱼
+				Bestiary: 由于其锋利的鼻子，点击鱼可以在土壤中翻寻，找到各种生物，如蠕虫。这也作为一种防御手段，可以在捕食者的身体上留下深深的伤口
+			}
+		}
+
+		Misc: {
+			RecipeGroup.AnyNormalSFXButton: 任何普通音效按钮
+
+			Death: {
+				BloodyClicker0: "{0} 吃了太多饼干难以消化"
+				BloodyClicker1: "{0} 死于糖尿病"
+			}
+		}
+
+		Configs: {
+			CalamityClickersConfig: {
+				DisplayName: 灾厄点击者配置
+
+				LegecyClickerTextures: {
+					Label: 旧版本材质
+					Tooltip: ""
+				}
+			}
+		}
+
+		Condition.PostPlant: 击败世纪之花后
+	}
+}

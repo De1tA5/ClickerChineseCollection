@@ -1,0 +1,80 @@
+Mods: {
+	RedemptionClickers: {
+		ClickEffect: {
+			ClawSlash: {
+				Name: 爪切
+				Description: 通过荆棘之力在光标位置进行切割
+			}
+
+			HolyLight: {
+				Name: 圣光
+				Description: 祈祷产生神圣爆炸
+			}
+
+			ToxicGas: {
+				Name: 毒气
+				Description: 向最近的敌人释放有毒气体
+			}
+
+			IceFlake: {
+				Name: 雪花
+				Description: 在光标的位置生成雪花消灭敌人
+			}
+
+			DragonsEmber: {
+				Name: 龙之余烬
+				Description: 产生龙之余烬爆炸
+			}
+
+			DreadCoil: {
+				Name: 恐惧幽魂
+				Description: 生成一个恐惧幽魂向最近的敌人移动
+			}
+		}
+
+		Items: {
+			Weapons: {
+				Clicker: {
+					CursedPointyClicker.DisplayName: 诅咒尖草点击器
+					HandheldCross.DisplayName: 手持十字架
+					InfectedClicker.DisplayName: 感染指针
+					IronRealmClicker.DisplayName: 净钢点击者
+					DragonSlayersTorch.DisplayName: 屠龙者火炬
+					SoulPointer.DisplayName: 灵魂指针
+				}
+			}
+
+			ClickersMutagen: {
+				DisplayName: 点击诱变剂
+				Tooltip:
+					'''
+					增加15%点击伤害
+					增加10%点击暴击率
+					'''
+			}
+
+			HardlightVRHat: {
+				DisplayName: 强光VR头显
+				Tooltip:
+					'''
+					增加13%点击伤害
+					增加5%点击暴击率
+					增加25%点击范围
+					'''
+				SetBonus: 召唤6个围绕光标旋转的准星，并在一段时间后爆炸
+			}
+		}
+
+		Projectiles: {
+			Clicker: {
+				CursedPointyClickerPro.DisplayName: 爪切
+				HandheldCrossPro.DisplayName: 圣光
+				InfectedClickerPro.DisplayName: 毒气
+				IronRealmClickerPro.DisplayName: 雪花
+				DragonSlayersTorchPro.DisplayName: 龙之爆破
+				HardlightVRHatPro.DisplayName: 强光点击
+				SoulPointerPro.DisplayName: 恐惧幽魂
+			}
+		}
+	}
+}

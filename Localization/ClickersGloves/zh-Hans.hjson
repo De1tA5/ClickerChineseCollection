@@ -1,0 +1,1425 @@
+Mods: {
+	ClickersGloves: {
+		Common.Tooltips.GloveEvery: 进入战斗后，每隔一段时间自动点击，间隔：
+
+		Items: {
+			AdamantiteGlove: {
+				DisplayName: 上古 精金 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FF9696:精金点击器]的[c/FF2525:克敌先机]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			AdamantiteGlove1: {
+				DisplayName: 豪华 精金 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FF9696:精金点击器]的[c/FF2525:克敌先机]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			ArcaneGlove: {
+				DisplayName: 奥术 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/96FF96:奥术点击器]的[c/FFB4FF:奥术附魔]的点击效果
+					{$Common.Tooltips.GloveEvery} 2秒
+					'''
+			}
+
+			ArcaneGlove1: {
+				DisplayName: 上古 奥术 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/96FF96:奥术点击器]的[c/FFB4FF:奥术附魔]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			ArcaneGlove2: {
+				DisplayName: 豪华 奥术 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/96FF96:奥术点击器]的[c/FFB4FF:奥术附魔]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			ArthursGlove: {
+				DisplayName: 豪华 神圣 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FF96FF:神圣点击器]的[c/FFFF00:神圣新星]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			AshenGlove: {
+				DisplayName: 灰烬木 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/9696FF:灰烬木点击器]的[c/FF9696:拔高]的点击效果
+					{$Common.Tooltips.GloveEvery} 2秒
+					'''
+			}
+
+			AshenGlove1: {
+				DisplayName: 上古 灰烬木 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/9696FF:灰烬木点击器]的[c/FF9696:拔高]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			AshenGlove2: {
+				DisplayName: 豪华 灰烬木 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/9696FF:灰烬木点击器]的[c/FF9696:拔高]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			AstralGlove: {
+				DisplayName: 豪华 星体 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FF2864:星体点击器]的[c/9696E1:涡旋]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			BalloonGlove: {
+				DisplayName: 气球 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/9696FF:气球点击器]的[c/C87D7D:气球防御]的点击效果
+					{$Common.Tooltips.GloveEvery} 2秒
+					'''
+			}
+
+			BalloonGlove1: {
+				DisplayName: 上古 气球 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/9696FF:气球点击器]的[c/C87D7D:气球防御]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			BalloonGlove2: {
+				DisplayName: 豪华 气球 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/9696FF:气球点击器]的[c/C87D7D:气球防御]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			BlizzardGlove: {
+				DisplayName: 上古 暴雪 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FF96FF:暴雪点击器]的[c/96DCFF:冰雹]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			BlizzardGlove1: {
+				DisplayName: 豪华 暴雪 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FF96FF:暴雪点击器]的[c/96DCFF:冰雹]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			BoneGlove: {
+				DisplayName: 骨头 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/9696FF:骨头点击器]的[c/E1E1C8:撕裂]的点击效果
+					{$Common.Tooltips.GloveEvery} 2秒
+					'''
+			}
+
+			BoneGlove1: {
+				DisplayName: 上古 骨头 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/9696FF:骨头点击器]的[c/E1E1C8:撕裂]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			BoneGlove2: {
+				DisplayName: 豪华 骨头 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/9696FF:骨头点击器]的[c/E1E1C8:撕裂]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			BurningSuperDeathGlove: {
+				DisplayName: 上古 爆燃超级死亡 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FF9696:爆燃超级死亡点击器]的[c/FF9696:狂热]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			BurningSuperDeathGlove1: {
+				DisplayName: 豪华 爆燃超级死亡 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FF9696:爆燃超级死亡点击器]的[c/FF9696:狂热]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			CandleGlove: {
+				DisplayName: 蜡烛 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/96FF96:蜡烛点击器]的[c/FFAF4B:照明]的点击效果
+					{$Common.Tooltips.GloveEvery} 2秒
+					'''
+			}
+
+			CandleGlove1: {
+				DisplayName: 上古 蜡烛 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/96FF96:蜡烛点击器]的[c/FFAF4B:照明]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			CandleGlove2: {
+				DisplayName: 豪华 蜡烛 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/96FF96:蜡烛点击器]的[c/FFAF4B:照明]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			CaptainsGlove: {
+				DisplayName: 上古 船长 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FF9696:船长点击器]的[c/FFE132:轰炸]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			CaptainsGlove1: {
+				DisplayName: 豪华 船长 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FF9696:船长点击器]的[c/FFE132:轰炸]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			ChlorophyteGlove: {
+				DisplayName: 豪华 叶绿 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/96FF0A:叶绿点击器]的[c/AFFF64:喷毒]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			CobaltGlove: {
+				DisplayName: 上古 钴 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FF9696:钴点击器]的[c/327DC8:急促]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			CobaltGlove1: {
+				DisplayName: 豪华 钴 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FF9696:钴点击器]的[c/327DC8:急促]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			ConfettiGlove: {
+				DisplayName: 彩纸 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/9696FF:彩纸点击器]的[c/19AFE1:派对时间！]的点击效果
+					{$Common.Tooltips.GloveEvery} 2秒
+					'''
+			}
+
+			ConfettiGlove1: {
+				DisplayName: 上古 彩纸 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/9696FF:彩纸点击器]的[c/19AFE1:派对时间！]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			ConfettiGlove2: {
+				DisplayName: 豪华 彩纸 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/9696FF:彩纸点击器]的[c/19AFE1:派对时间！]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			CopperGlove: {
+				DisplayName: 铜 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFFFFF:铜点击器]的[c/FFFFFF:双击]的点击效果
+					{$Common.Tooltips.GloveEvery} 2秒
+					'''
+			}
+
+			CopperGlove1: {
+				DisplayName: 上古 铜 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFFFFF:铜点击器]的[c/FFFFFF:双击]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			CopperGlove2: {
+				DisplayName: 豪华 铜 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFFFFF:铜点击器]的[c/FFFFFF:双击]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			CorruptGlove: {
+				DisplayName: 上古 腐化 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FF9696:腐化点击器]的[c/7DFF00:诅咒喷发]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			CorruptGlove1: {
+				DisplayName: 豪华 腐化 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FF9696:腐化点击器]的[c/7DFF00:诅咒喷发]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			CrimsonGlove: {
+				DisplayName: 上古 猩红 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FF9696:猩红点击器]的[c/FFE1AF:感染]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			CrimsonGlove1: {
+				DisplayName: 豪华 猩红 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FF9696:猩红点击器]的[c/FFE1AF:感染]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			CritterGlove: {
+				DisplayName: 动物 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFC896:动物点击器]的[c/CDEBFF:抓捕]的点击效果
+					{$Common.Tooltips.GloveEvery} 2秒
+					'''
+			}
+
+			CritterGlove1: {
+				DisplayName: 上古 动物 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFC896:动物点击器]的[c/CDEBFF:抓捕]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			CritterGlove2: {
+				DisplayName: 豪华 动物 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFC896:动物点击器]的[c/CDEBFF:抓捕]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			CrystalGlove: {
+				DisplayName: 上古 水晶 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FF9696:水晶点击器]的[c/C832FF:迷惑]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			CrystalGlove1: {
+				DisplayName: 豪华 水晶 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FF9696:水晶点击器]的[c/C832FF:迷惑]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			CyclopsGlove: {
+				DisplayName: 鹿角怪 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/96FF96:鹿角怪点击器]的[c/4B4B4B:癫狂]的点击效果
+					{$Common.Tooltips.GloveEvery} 2秒
+					'''
+			}
+
+			CyclopsGlove1: {
+				DisplayName: 上古 鹿角怪 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/96FF96:鹿角怪点击器]的[c/4B4B4B:癫狂]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			CyclopsGlove2: {
+				DisplayName: 豪华 鹿角怪 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/96FF96:鹿角怪点击器]的[c/4B4B4B:癫狂]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			DarkGlove: {
+				DisplayName: 魔矿 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/9696FF:魔矿点击器]的[c/6432C8:黑暗爆发]的点击效果
+					{$Common.Tooltips.GloveEvery} 2秒
+					'''
+			}
+
+			DarkGlove1: {
+				DisplayName: 上古 魔矿 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/9696FF:魔矿点击器]的[c/6432C8:黑暗爆发]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			DarkGlove2: {
+				DisplayName: 豪华 魔矿 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/9696FF:魔矿点击器]的[c/6432C8:黑暗爆发]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			DraconicGlove: {
+				DisplayName: 豪华 飞龙 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFFF0A:飞龙点击器]的[c/AF3787:飞龙咆哮]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			DreamGlove: {
+				DisplayName: 梦幻 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/96FF96:梦幻点击器]的[c/FFEBB4:星刃]的点击效果
+					{$Common.Tooltips.GloveEvery} 2秒
+					'''
+			}
+
+			DreamGlove1: {
+				DisplayName: 上古 梦幻 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/96FF96:梦幻点击器]的[c/FFEBB4:星刃]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			DreamGlove2: {
+				DisplayName: 豪华 梦幻 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/96FF96:梦幻点击器]的[c/FFEBB4:星刃]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			EclipticGlove: {
+				DisplayName: 上古 日食 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/D2A0FF:日食点击器]的[c/FFC864:食分]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			EclipticGlove1: {
+				DisplayName: 豪华 日食 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/D2A0FF:日食点击器]的[c/FFC864:食分]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			FaultyGlove: {
+				DisplayName: 故障 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/9696FF:故障点击器]的[c/646464:电路故障]的点击效果
+					{$Common.Tooltips.GloveEvery} 2秒
+					'''
+			}
+
+			FaultyGlove1: {
+				DisplayName: 上古 故障 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/9696FF:故障点击器]的[c/646464:电路故障]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			FaultyGlove2: {
+				DisplayName: 豪华 故障 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/9696FF:故障点击器]的[c/646464:电路故障]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			FrozenGlove: {
+				DisplayName: 豪华 寒冰 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFFF0A:寒冰点击器]的[c/AFFFFF:冻结]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			GoldGlove: {
+				DisplayName: 金 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFFFFF:金点击器]的[c/FFFFFF:双击]的点击效果
+					{$Common.Tooltips.GloveEvery} 2秒
+					'''
+			}
+
+			GoldGlove1: {
+				DisplayName: 上古 金 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFFFFF:金点击器]的[c/FFFFFF:双击]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			GoldGlove2: {
+				DisplayName: 豪华 金 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFFFFF:金点击器]的[c/FFFFFF:双击]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			HeartyGlove: {
+				DisplayName: 甜心 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFC896:甜心点击器]的[c/FFAAEB:快乐之心]的点击效果
+					{$Common.Tooltips.GloveEvery} 2秒
+					'''
+			}
+
+			HeartyGlove1: {
+				DisplayName: 上古 甜心 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFC896:甜心点击器]的[c/FFAAEB:快乐之心]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			HeartyGlove2: {
+				DisplayName: 豪华 甜心 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFC896:甜心点击器]的[c/FFAAEB:快乐之心]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			HemoGlove: {
+				DisplayName: 血液 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/9696FF:血液点击器]的[c/FF3232:溅血]的点击效果
+					{$Common.Tooltips.GloveEvery} 2秒
+					'''
+			}
+
+			HemoGlove1: {
+				DisplayName: 上古 血液 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/9696FF:血液点击器]的[c/FF3232:溅血]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			HemoGlove2: {
+				DisplayName: 豪华 血液 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/9696FF:血液点击器]的[c/FF3232:溅血]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			HighTechGlove: {
+				DisplayName: 豪华 高科技 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFFF0A:高科技点击器]的[c/4BFFC8:放电]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			HoneyGlazedGlove: {
+				DisplayName: 蜜釉 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFC896:蜜釉点击器]的[c/FFAF00:粘蜜]的点击效果
+					{$Common.Tooltips.GloveEvery} 2秒
+					'''
+			}
+
+			HoneyGlazedGlove1: {
+				DisplayName: 上古 蜜釉 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFC896:蜜釉点击器]的[c/FFAF00:粘蜜]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			HoneyGlazedGlove2: {
+				DisplayName: 豪华 蜜釉 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFC896:蜜釉点击器]的[c/FFAF00:粘蜜]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			ImpishGlove: {
+				DisplayName: 小恶魔 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFC896:小恶魔点击器]的[c/F02300:灼翼]的点击效果
+					{$Common.Tooltips.GloveEvery} 2秒
+					'''
+			}
+
+			ImpishGlove1: {
+				DisplayName: 上古 小恶魔 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFC896:小恶魔点击器]的[c/F02300:灼翼]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			ImpishGlove2: {
+				DisplayName: 豪华 小恶魔 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFC896:小恶魔点击器]的[c/F02300:灼翼]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			IronGlove: {
+				DisplayName: 铁 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFFFFF:铁点击器]的[c/FFFFFF:双击]的点击效果
+					{$Common.Tooltips.GloveEvery} 2秒
+					'''
+			}
+
+			IronGlove1: {
+				DisplayName: 上古 铁 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFFFFF:铁点击器]的[c/FFFFFF:双击]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			IronGlove2: {
+				DisplayName: 豪华 铁 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFFFFF:铁点击器]的[c/FFFFFF:双击]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			LanternGlove: {
+				DisplayName: 豪华 提灯 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFFF0A:提灯点击器]的[c/FF9B41:焚尽]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			LeadGlove: {
+				DisplayName: 铅 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFFFFF:铅点击器]的[c/FFFFFF:双击]的点击效果
+					{$Common.Tooltips.GloveEvery} 2秒
+					'''
+			}
+
+			LeadGlove1: {
+				DisplayName: 上古 铅 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFFFFF:铅点击器]的[c/FFFFFF:双击]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			LeadGlove2: {
+				DisplayName: 豪华 铅 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFFFFF:铅点击器]的[c/FFFFFF:双击]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			LihzahrdGlove: {
+				DisplayName: 豪华 丛林蜥蜴 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/96FF0A:丛林蜥蜴点击器]的[c/C84B00:太阳耀斑]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			LordsGlove: {
+				DisplayName: 豪华 月亮领主 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FF2864:月亮领主点击器]的[c/64FFC8:征服者]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			MagnetGlove: {
+				DisplayName: 磁铁 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFC896:磁铁点击器]的[c/FFB4B4:吸引]的点击效果
+					{$Common.Tooltips.GloveEvery} 2秒
+					'''
+			}
+
+			MagnetGlove1: {
+				DisplayName: 上古 磁铁 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFC896:磁铁点击器]的[c/FFB4B4:吸引]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			MagnetGlove2: {
+				DisplayName: 豪华 磁铁 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFC896:磁铁点击器]的[c/FFB4B4:吸引]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			MiceGlove: {
+				DisplayName: 豪华 鼠标 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FF2864:鼠标点击器]的[c/9696E1:碰撞]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			MouseGlove: {
+				DisplayName: 豪华 老鼠 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFFF0A:老鼠点击器]的[c/787878:陷阱]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			MyceliumGlove: {
+				DisplayName: 菌丝 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/9696FF:菌丝点击器]的[c/7396DC:孢子]的点击效果
+					{$Common.Tooltips.GloveEvery} 2秒
+					'''
+			}
+
+			MyceliumGlove1: {
+				DisplayName: 上古 菌丝 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/9696FF:菌丝点击器]的[c/7396DC:孢子]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			MyceliumGlove2: {
+				DisplayName: 豪华 菌丝 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/9696FF:菌丝点击器]的[c/7396DC:孢子]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			MythrilGlove: {
+				DisplayName: 上古 秘银 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FF9696:秘银点击器]的[c/7DE17D:脆化]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			MythrilGlove1: {
+				DisplayName: 豪华 秘银 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FF9696:秘银点击器]的[c/7DE17D:脆化]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			NaughtyGlove: {
+				DisplayName: 豪华 顽皮 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFFF0A:顽皮点击器]的[c/D79696:礼物]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			OrichalcumGlove: {
+				DisplayName: 上古 山铜 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FF9696:山铜点击器]的[c/FF96FF:花瓣风暴]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			OrichalcumGlove1: {
+				DisplayName: 豪华 山铜 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FF9696:山铜点击器]的[c/FF96FF:花瓣风暴]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			PalladiumGlove: {
+				DisplayName: 上古 钯金 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FF9696:钯金点击器]的[c/FA9664:再生]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			PalladiumGlove1: {
+				DisplayName: 豪华 钯金 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FF9696:钯金点击器]的[c/FA9664:再生]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			PharaohsGlove: {
+				DisplayName: 法老 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/96FF96:法老点击器]的[c/FADC00:法老旨意]的点击效果
+					{$Common.Tooltips.GloveEvery} 2秒
+					'''
+			}
+
+			PharaohsGlove1: {
+				DisplayName: 上古 法老 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/96FF96:法老点击器]的[c/FADC00:法老旨意]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			PharaohsGlove2: {
+				DisplayName: 豪华 法老 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/96FF96:法老点击器]的[c/FADC00:法老旨意]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			PlatinumGlove: {
+				DisplayName: 铂金 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFFFFF:铂金点击器]的[c/FFFFFF:双击]的点击效果
+					{$Common.Tooltips.GloveEvery} 2秒
+					'''
+			}
+
+			PlatinumGlove1: {
+				DisplayName: 上古 铂金 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFFFFF:铂金点击器]的[c/FFFFFF:双击]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			PlatinumGlove2: {
+				DisplayName: 豪华 铂金 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFFFFF:铂金点击器]的[c/FFFFFF:双击]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			PointyGlove: {
+				DisplayName: 尖刺 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFC896:尖刺点击器]的[c/64AF4B:荆棘射弹]的点击效果
+					{$Common.Tooltips.GloveEvery} 2秒
+					'''
+			}
+
+			PointyGlove1: {
+				DisplayName: 上古 尖刺 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFC896:尖刺点击器]的[c/64AF4B:荆棘射弹]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			PointyGlove2: {
+				DisplayName: 豪华 尖刺 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFC896:尖刺点击器]的[c/64AF4B:荆棘射弹]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			QuintessenceGlove: {
+				DisplayName: 豪华 精粹 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/B428FF:精粹点击器]的[c/DCB4FF:超越]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			RainbowGlove: {
+				DisplayName: 豪华 彩虹 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFFF0A:彩虹点击器]的[c/FF2864:彩][c/FFFF0A:虹][c/96FF96:飞][c/9696FF:弹]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			RedHotGlove: {
+				DisplayName: 狱石 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFC896:狱石点击器]的[c/FF7D00:狱火]的点击效果
+					{$Common.Tooltips.GloveEvery} 2秒
+					'''
+			}
+
+			RedHotGlove1: {
+				DisplayName: 上古 狱石 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFC896:狱石点击器]的[c/FF7D00:狱火]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			RedHotGlove2: {
+				DisplayName: 豪华 狱石 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFC896:狱石点击器]的[c/FF7D00:狱火]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			SandstormGlove: {
+				DisplayName: 上古 沙暴 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FF96FF:沙暴点击器]的[c/DCB978:尘卷风]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			SandstormGlove1: {
+				DisplayName: 豪华 沙暴 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FF96FF:沙暴点击器]的[c/DCB978:尘卷风]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			SeafoamGlove: {
+				DisplayName: 豪华 海泡石 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFFF0A:海泡石点击器]的[c/A0E6C8:海浪]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			ShadowyGlove: {
+				DisplayName: 幽暗 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/9696FF:幽暗点击器]的[c/9664FF:诅咒]的点击效果
+					{$Common.Tooltips.GloveEvery} 2秒
+					'''
+			}
+
+			ShadowyGlove1: {
+				DisplayName: 上古 幽暗 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/9696FF:幽暗点击器]的[c/9664FF:诅咒]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			ShadowyGlove2: {
+				DisplayName: 豪华 幽暗 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/9696FF:幽暗点击器]的[c/9664FF:诅咒]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			ShroomiteGlove: {
+				DisplayName: 豪华 蘑菇 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFFF0A:蘑菇点击器]的[c/9696FF:自动点击]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			SilverGlove: {
+				DisplayName: 银 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFFFFF:银点击器]的[c/FFFFFF:双击]的点击效果
+					{$Common.Tooltips.GloveEvery} 2秒
+					'''
+			}
+
+			SilverGlove1: {
+				DisplayName: 上古 银 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFFFFF:银点击器]的[c/FFFFFF:双击]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			SilverGlove2: {
+				DisplayName: 豪华 银 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFFFFF:银点击器]的[c/FFFFFF:双击]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			SinisterGlove: {
+				DisplayName: 厄兆 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/9696FF:厄兆点击器]的[c/641919:虹吸]的点击效果
+					{$Common.Tooltips.GloveEvery} 2秒
+					'''
+			}
+
+			SinisterGlove1: {
+				DisplayName: 上古 厄兆 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/9696FF:厄兆点击器]的[c/641919:虹吸]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			SinisterGlove2: {
+				DisplayName: 豪华 厄兆 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/9696FF:厄兆点击器]的[c/641919:虹吸]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			SlickGlove: {
+				DisplayName: 灵动 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/96FF96:灵动点击器]的[c/4B4BFF:洒水]的点击效果
+					{$Common.Tooltips.GloveEvery} 2秒
+					'''
+			}
+
+			SlickGlove1: {
+				DisplayName: 上古 灵动 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/96FF96:灵动点击器]的[c/4B4BFF:洒水]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			SlickGlove2: {
+				DisplayName: 豪华 灵动 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/96FF96:灵动点击器]的[c/4B4BFF:洒水]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			SnottyGlove: {
+				DisplayName: 豪华 鼻涕 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/D2A0FF:鼻涕点击器]的[c/B4D796:食人魔的黄金]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			SpaceGlove: {
+				DisplayName: 太空 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/9696FF:太空点击器]的[c/AF4BFF:星星风暴]的点击效果
+					{$Common.Tooltips.GloveEvery} 2秒
+					'''
+			}
+
+			SpaceGlove1: {
+				DisplayName: 上古 太空 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/9696FF:太空点击器]的[c/AF4BFF:星星风暴]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			SpaceGlove2: {
+				DisplayName: 豪华 太空 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/9696FF:太空点击器]的[c/AF4BFF:星星风暴]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			SpectreGlove: {
+				DisplayName: 豪华 幽灵 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFFF0A:幽灵点击器]的[c/64FFFF:无量]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			SpiralGlove: {
+				DisplayName: 上古 螺旋 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FF9696:螺旋点击器]的[c/A02823:血珠]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			SpiralGlove1: {
+				DisplayName: 豪华 螺旋 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FF9696:螺旋点击器]的[c/A02823:血珠]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			StarryGlove: {
+				DisplayName: 星空 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/96FF96:星空点击器]的[c/FF32C8:坠星]的点击效果
+					{$Common.Tooltips.GloveEvery} 2秒
+					'''
+			}
+
+			StarryGlove1: {
+				DisplayName: 上古 星空 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/96FF96:星空点击器]的[c/FF32C8:坠星]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			StarryGlove2: {
+				DisplayName: 豪华 星空 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/96FF96:星空点击器]的[c/FF32C8:坠星]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			TheGlove: {
+				DisplayName: 大师点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FF2864:大师点击器]的[c/FFFFFF:大师点击]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			TinGlove: {
+				DisplayName: 锡 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFFFFF:锡点击器]的[c/FFFFFF:双击]的点击效果
+					{$Common.Tooltips.GloveEvery} 2秒
+					'''
+			}
+
+			TinGlove1: {
+				DisplayName: 上古 锡 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFFFFF:锡点击器]的[c/FFFFFF:双击]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			TinGlove2: {
+				DisplayName: 豪华 锡 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFFFFF:锡点击器]的[c/FFFFFF:双击]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			TitaniumGlove: {
+				DisplayName: 上古 钛金 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FF9696:钛金点击器]的[c/969696:刀锋]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			TitaniumGlove1: {
+				DisplayName: 豪华 钛金 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FF9696:钛金点击器]的[c/969696:刀锋]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			TorchGlove: {
+				DisplayName: 火把 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFC896:火把点击器]的[c/FFF5E1:惩戒]的点击效果
+					{$Common.Tooltips.GloveEvery} 2秒
+					'''
+			}
+
+			TorchGlove1: {
+				DisplayName: 上古 火把 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFC896:火把点击器]的[c/FFF5E1:惩戒]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			TorchGlove2: {
+				DisplayName: 豪华 火把 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFC896:火把点击器]的[c/FFF5E1:惩戒]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			TungstenGlove: {
+				DisplayName: 钨 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFFFFF:钨点击器]的[c/FFFFFF:双击]的点击效果
+					{$Common.Tooltips.GloveEvery} 2秒
+					'''
+			}
+
+			TungstenGlove1: {
+				DisplayName: 上古 钨 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFFFFF:钨点击器]的[c/FFFFFF:双击]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			TungstenGlove2: {
+				DisplayName: 豪华 钨 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFFFFF:钨点击器]的[c/FFFFFF:双击]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			UmbralGlove: {
+				DisplayName: 阴影 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFC896:阴影点击器]的[c/9664FF:暗影鞭笞]的点击效果
+					{$Common.Tooltips.GloveEvery} 2秒
+					'''
+			}
+
+			UmbralGlove1: {
+				DisplayName: 上古 阴影 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFC896:阴影点击器]的[c/9664FF:暗影鞭笞]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			UmbralGlove2: {
+				DisplayName: 豪华 阴影 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFC896:阴影点击器]的[c/9664FF:暗影鞭笞]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			WebGlove: {
+				DisplayName: 上古 蛛网 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FF9696:蛛网点击器]的[c/BEBEAF:蛛网喷射]的点击效果
+					{$Common.Tooltips.GloveEvery} 1秒
+					'''
+			}
+
+			WebGlove1: {
+				DisplayName: 豪华 蛛网 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FF9696:蛛网点击器]的[c/BEBEAF:蛛网喷射]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			WitchGlove: {
+				DisplayName: 豪华 女巫 点击手套
+				Tooltip:
+					'''
+					所有点击器获得[c/FFFF0A:女巫点击器]的[c/AF4BFF:狂野魔法]的点击效果
+					{$Common.Tooltips.GloveEvery} 0.5秒
+					'''
+			}
+
+			AeroGlove: {
+				DisplayName: Aero点击手套
+				Tooltip: ""
+			}
+		}
+	}
+}

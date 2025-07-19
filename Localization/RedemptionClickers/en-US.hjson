@@ -1,0 +1,80 @@
+Mods: {
+	RedemptionClickers: {
+		ClickEffect: {
+			ClawSlash: {
+				Name: Claw Slash
+				Description: Cuts the mouse position by power of Thorn
+			}
+
+			HolyLight: {
+				Name: Holy Light
+				Description: Pray to create a holy explosion
+			}
+
+			ToxicGas: {
+				Name: Toxic Gas
+				Description: Spread an toxic gas to nearest enemy
+			}
+
+			IceFlake: {
+				Name: Ice Flake
+				Description: Shreads an enemy by snow flake in mouse position
+			}
+
+			DragonsEmber: {
+				Name: Dragon's Ember
+				Description: Creates an explosion of dragon's ember
+			}
+
+			DreadCoil: {
+				Name: Dread Coil
+				Description: Creates an Dread Coil that moves to nearest enemy
+			}
+		}
+
+		Items: {
+			Weapons: {
+				Clicker: {
+					CursedPointyClicker.DisplayName: Cursed Pointy Clicker
+					HandheldCross.DisplayName: Handheld Cross
+					InfectedClicker.DisplayName: Infected Clicker
+					IronRealmClicker.DisplayName: Iron Realm Clicker
+					DragonSlayersTorch.DisplayName: Dragon Slayer's Torch
+					SoulPointer.DisplayName: Soul Pointer
+				}
+			}
+
+			ClickersMutagen: {
+				DisplayName: Clicker's Mutagen
+				Tooltip:
+					'''
+					15% increased clicker damage
+					10% increased clicker critical strike chance
+					'''
+			}
+
+			HardlightVRHat: {
+				DisplayName: Hardlight VR Hat
+				Tooltip:
+					'''
+					13% increased clicker damage
+					5% increased clicker critical strike chance
+					25% increased base clicker radius
+					'''
+				SetBonus: Summon 6 crosses that rotates around cursor and explodes through time
+			}
+		}
+
+		Projectiles: {
+			Clicker: {
+				CursedPointyClickerPro.DisplayName: Claw Slash
+				HandheldCrossPro.DisplayName: Holy Light
+				InfectedClickerPro.DisplayName: Toxic Gas
+				IronRealmClickerPro.DisplayName: Snow Flake
+				DragonSlayersTorchPro.DisplayName: Dragon Explosion
+				HardlightVRHatPro.DisplayName: Hardlight Click
+				SoulPointerPro.DisplayName: Dread Coil
+			}
+		}
+	}
+}

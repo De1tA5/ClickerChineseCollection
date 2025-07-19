@@ -1,0 +1,1425 @@
+Mods: {
+	ClickersGloves: {
+		Common.Tooltips.GloveEvery: While in combat, automatically clicks your current clicker every
+
+		Items: {
+			AdamantiteGlove: {
+				DisplayName: Ancient Adamantite Glove
+				Tooltip:
+					'''
+					Adds [c/FF2525:True Strike] effect from [c/FF9696:Adamantite Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			AdamantiteGlove1: {
+				DisplayName: Regal Adamantite Glove
+				Tooltip:
+					'''
+					Adds [c/FF2525:True Strike] effect from [c/FF9696:Adamantite Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			ArcaneGlove: {
+				DisplayName: Arcane Glove
+				Tooltip:
+					'''
+					Adds [c/FFB4FF:Arcane Enchantment] effect from [c/96FF96:Arcane Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} 2 seconds
+					'''
+			}
+
+			ArcaneGlove1: {
+				DisplayName: Ancient Arcane Glove
+				Tooltip:
+					'''
+					Adds [c/FFB4FF:Arcane Enchantment] effect from [c/96FF96:Arcane Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			ArcaneGlove2: {
+				DisplayName: Regal Arcane Glove
+				Tooltip:
+					'''
+					Adds [c/FFB4FF:Arcane Enchantment] effect from [c/96FF96:Arcane Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			ArthursGlove: {
+				DisplayName: Regal Arthur's Glove
+				Tooltip:
+					'''
+					Adds [c/FFFF00:Holy Nova] effect from [c/FF96FF:Arthur's Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			AshenGlove: {
+				DisplayName: Ashen Glove
+				Tooltip:
+					'''
+					Adds [c/FF9696:Bold] effect from [c/9696FF:Ashen Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} 2 seconds
+					'''
+			}
+
+			AshenGlove1: {
+				DisplayName: Ancient Ashen Glove
+				Tooltip:
+					'''
+					Adds [c/FF9696:Bold] effect from [c/9696FF:Ashen Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			AshenGlove2: {
+				DisplayName: Regal Ashen Glove
+				Tooltip:
+					'''
+					Adds [c/FF9696:Bold] effect from [c/9696FF:Ashen Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			AstralGlove: {
+				DisplayName: Regal Astral Glove
+				Tooltip:
+					'''
+					Adds [c/9696E1:Spiral] effect from [c/FF2864:Astral Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			BalloonGlove: {
+				DisplayName: Balloon Glove
+				Tooltip:
+					'''
+					Adds [c/C87D7D:Balloon Defense] effect from [c/9696FF:Balloon Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} 2 seconds
+					'''
+			}
+
+			BalloonGlove1: {
+				DisplayName: Ancient Balloon Glove
+				Tooltip:
+					'''
+					Adds [c/C87D7D:Balloon Defense] effect from [c/9696FF:Balloon Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			BalloonGlove2: {
+				DisplayName: Regal Balloon Glove
+				Tooltip:
+					'''
+					Adds [c/C87D7D:Balloon Defense] effect from [c/9696FF:Balloon Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			BlizzardGlove: {
+				DisplayName: Ancient Blizzard Glove
+				Tooltip:
+					'''
+					Adds [c/96DCFF:Flurry] effect from [c/FF96FF:Blizzard Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			BlizzardGlove1: {
+				DisplayName: Regal Blizzard Glove
+				Tooltip:
+					'''
+					Adds [c/96DCFF:Flurry] effect from [c/FF96FF:Blizzard Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			BoneGlove: {
+				DisplayName: Bone Glove
+				Tooltip:
+					'''
+					Adds [c/E1E1C8:Lacerate] effect from [c/9696FF:Bone Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} 2 seconds
+					'''
+			}
+
+			BoneGlove1: {
+				DisplayName: Ancient Bone Glove
+				Tooltip:
+					'''
+					Adds [c/E1E1C8:Lacerate] effect from [c/9696FF:Bone Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			BoneGlove2: {
+				DisplayName: Regal Bone Glove
+				Tooltip:
+					'''
+					Adds [c/E1E1C8:Lacerate] effect from [c/9696FF:Bone Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			BurningSuperDeathGlove: {
+				DisplayName: Ancient Burning Super Death Glove
+				Tooltip:
+					'''
+					Adds [c/FF9696:Mania] effect from [c/FF9696:Burning Super Death Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			BurningSuperDeathGlove1: {
+				DisplayName: Regal Burning Super Death Glove
+				Tooltip:
+					'''
+					Adds [c/FF9696:Mania] effect from [c/FF9696:Burning Super Death Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			CandleGlove: {
+				DisplayName: Candle Glove
+				Tooltip:
+					'''
+					Adds [c/FFAF4B:Illuminate] effect from [c/96FF96:Candle Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} 2 seconds
+					'''
+			}
+
+			CandleGlove1: {
+				DisplayName: Ancient Candle Glove
+				Tooltip:
+					'''
+					Adds [c/FFAF4B:Illuminate] effect from [c/96FF96:Candle Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			CandleGlove2: {
+				DisplayName: Regal Candle Glove
+				Tooltip:
+					'''
+					Adds [c/FFAF4B:Illuminate] effect from [c/96FF96:Candle Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			CaptainsGlove: {
+				DisplayName: Ancient Captain's Glove
+				Tooltip:
+					'''
+					Adds [c/FFE132:Bombard] effect from [c/FF9696:Captain's Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			CaptainsGlove1: {
+				DisplayName: Regal Captain's Glove
+				Tooltip:
+					'''
+					Adds [c/FFE132:Bombard] effect from [c/FF9696:Captain's Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			ChlorophyteGlove: {
+				DisplayName: Regal Chlorophyte Glove
+				Tooltip:
+					'''
+					Adds [c/AFFF64:Toxic Release] effect from [c/96FF0A:Chlorophyte Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			CobaltGlove: {
+				DisplayName: Ancient Cobalt Glove
+				Tooltip:
+					'''
+					Adds [c/327DC8:Haste] effect from [c/FF9696:Cobalt Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			CobaltGlove1: {
+				DisplayName: Regal Cobalt Glove
+				Tooltip:
+					'''
+					Adds [c/327DC8:Haste] effect from [c/FF9696:Cobalt Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			ConfettiGlove: {
+				DisplayName: Confetti Glove
+				Tooltip:
+					'''
+					Adds [c/19AFE1:Party Time] effect from [c/9696FF:Confetti Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} 2 seconds
+					'''
+			}
+
+			ConfettiGlove1: {
+				DisplayName: Ancient Confetti Glove
+				Tooltip:
+					'''
+					Adds [c/19AFE1:Party Time] effect from [c/9696FF:Confetti Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			ConfettiGlove2: {
+				DisplayName: Regal Confetti Glove
+				Tooltip:
+					'''
+					Adds [c/19AFE1:Party Time] effect from [c/9696FF:Confetti Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			CopperGlove: {
+				DisplayName: Copper Glove
+				Tooltip:
+					'''
+					Adds [c/FFFFFF:Double Click] effect from [c/FFFFFF:Copper Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} 2 seconds
+					'''
+			}
+
+			CopperGlove1: {
+				DisplayName: Ancient Copper Glove
+				Tooltip:
+					'''
+					Adds [c/FFFFFF:Double Click] effect from [c/FFFFFF:Copper Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			CopperGlove2: {
+				DisplayName: Regal Copper Glove
+				Tooltip:
+					'''
+					Adds [c/FFFFFF:Double Click] effect from [c/FFFFFF:Copper Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			CorruptGlove: {
+				DisplayName: Ancient Corrupt Glove
+				Tooltip:
+					'''
+					Adds [c/7DFF00:Cursed Eruption] effect from [c/FF9696:Corrupt Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			CorruptGlove1: {
+				DisplayName: Regal Corrupt Glove
+				Tooltip:
+					'''
+					Adds [c/7DFF00:Cursed Eruption] effect from [c/FF9696:Corrupt Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			CrimsonGlove: {
+				DisplayName: Ancient Crimson Glove
+				Tooltip:
+					'''
+					Adds [c/FFE1AF:Infest] effect from [c/FF9696:Crimson Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			CrimsonGlove1: {
+				DisplayName: Regal Crimson Glove
+				Tooltip:
+					'''
+					Adds [c/FFE1AF:Infest] effect from [c/FF9696:Crimson Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			CritterGlove: {
+				DisplayName: Critter Glove
+				Tooltip:
+					'''
+					Adds [c/CDEBFF:Nab] effect from [c/FFC896:Critter Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} 2 seconds
+					'''
+			}
+
+			CritterGlove1: {
+				DisplayName: Ancient Critter Glove
+				Tooltip:
+					'''
+					Adds [c/CDEBFF:Nab] effect from [c/FFC896:Critter Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			CritterGlove2: {
+				DisplayName: Regal Critter Glove
+				Tooltip:
+					'''
+					Adds [c/CDEBFF:Nab] effect from [c/FFC896:Critter Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			CrystalGlove: {
+				DisplayName: Ancient Crystal Glove
+				Tooltip:
+					'''
+					Adds [c/C832FF:Dazzle] effect from [c/FF9696:Crystal Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			CrystalGlove1: {
+				DisplayName: Regal Crystal Glove
+				Tooltip:
+					'''
+					Adds [c/C832FF:Dazzle] effect from [c/FF9696:Crystal Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			CyclopsGlove: {
+				DisplayName: Cyclops Glove
+				Tooltip:
+					'''
+					Adds [c/4B4B4B:Insanity] effect from [c/96FF96:Cyclops Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} 2 seconds
+					'''
+			}
+
+			CyclopsGlove1: {
+				DisplayName: Ancient Cyclops Glove
+				Tooltip:
+					'''
+					Adds [c/4B4B4B:Insanity] effect from [c/96FF96:Cyclops Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			CyclopsGlove2: {
+				DisplayName: Regal Cyclops Glove
+				Tooltip:
+					'''
+					Adds [c/4B4B4B:Insanity] effect from [c/96FF96:Cyclops Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			DarkGlove: {
+				DisplayName: Dark Glove
+				Tooltip:
+					'''
+					Adds [c/6432C8:Dark Burst] effect from [c/9696FF:Dark Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} 2 seconds
+					'''
+			}
+
+			DarkGlove1: {
+				DisplayName: Ancient Dark Glove
+				Tooltip:
+					'''
+					Adds [c/6432C8:Dark Burst] effect from [c/9696FF:Dark Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			DarkGlove2: {
+				DisplayName: Regal Dark Glove
+				Tooltip:
+					'''
+					Adds [c/6432C8:Dark Burst] effect from [c/9696FF:Dark Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			DraconicGlove: {
+				DisplayName: Regal Draconic Glove
+				Tooltip:
+					'''
+					Adds [c/AF3787:Wyverns Roar] effect from [c/FFFF0A:Draconic Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			DreamGlove: {
+				DisplayName: Dream Glove
+				Tooltip:
+					'''
+					Adds [c/FFEBB4:Star Slice] effect from [c/96FF96:Dream Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} 2 seconds
+					'''
+			}
+
+			DreamGlove1: {
+				DisplayName: Ancient Dream Glove
+				Tooltip:
+					'''
+					Adds [c/FFEBB4:Star Slice] effect from [c/96FF96:Dream Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			DreamGlove2: {
+				DisplayName: Regal Dream Glove
+				Tooltip:
+					'''
+					Adds [c/FFEBB4:Star Slice] effect from [c/96FF96:Dream Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			EclipticGlove: {
+				DisplayName: Ancient Ecliptic Glove
+				Tooltip:
+					'''
+					Adds [c/FFC864:Totality] effect from [c/D2A0FF:Ecliptic Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			EclipticGlove1: {
+				DisplayName: Regal Ecliptic Glove
+				Tooltip:
+					'''
+					Adds [c/FFC864:Totality] effect from [c/D2A0FF:Ecliptic Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			FaultyGlove: {
+				DisplayName: Faulty Glove
+				Tooltip:
+					'''
+					Adds [c/646464:Fritz] effect from [c/9696FF:Faulty Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} 2 seconds
+					'''
+			}
+
+			FaultyGlove1: {
+				DisplayName: Ancient Faulty Glove
+				Tooltip:
+					'''
+					Adds [c/646464:Fritz] effect from [c/9696FF:Faulty Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			FaultyGlove2: {
+				DisplayName: Regal Faulty Glove
+				Tooltip:
+					'''
+					Adds [c/646464:Fritz] effect from [c/9696FF:Faulty Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			FrozenGlove: {
+				DisplayName: Regal Frozen Glove
+				Tooltip:
+					'''
+					Adds [c/AFFFFF:Freeze] effect from [c/FFFF0A:Frozen Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			GoldGlove: {
+				DisplayName: Gold Glove
+				Tooltip:
+					'''
+					Adds [c/FFFFFF:Double Click] effect from [c/FFFFFF:Gold Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} 2 seconds
+					'''
+			}
+
+			GoldGlove1: {
+				DisplayName: Ancient Gold Glove
+				Tooltip:
+					'''
+					Adds [c/FFFFFF:Double Click] effect from [c/FFFFFF:Gold Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			GoldGlove2: {
+				DisplayName: Regal Gold Glove
+				Tooltip:
+					'''
+					Adds [c/FFFFFF:Double Click] effect from [c/FFFFFF:Gold Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			HeartyGlove: {
+				DisplayName: Hearty Glove
+				Tooltip:
+					'''
+					Adds [c/FFAAEB:Happy Heart] effect from [c/FFC896:Hearty Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} 2 seconds
+					'''
+			}
+
+			HeartyGlove1: {
+				DisplayName: Ancient Hearty Glove
+				Tooltip:
+					'''
+					Adds [c/FFAAEB:Happy Heart] effect from [c/FFC896:Hearty Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			HeartyGlove2: {
+				DisplayName: Regal Hearty Glove
+				Tooltip:
+					'''
+					Adds [c/FFAAEB:Happy Heart] effect from [c/FFC896:Hearty Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			HemoGlove: {
+				DisplayName: Hemo Glove
+				Tooltip:
+					'''
+					Adds [c/FF3232:Linger] effect from [c/9696FF:Hemo Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} 2 seconds
+					'''
+			}
+
+			HemoGlove1: {
+				DisplayName: Ancient Hemo Glove
+				Tooltip:
+					'''
+					Adds [c/FF3232:Linger] effect from [c/9696FF:Hemo Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			HemoGlove2: {
+				DisplayName: Regal Hemo Glove
+				Tooltip:
+					'''
+					Adds [c/FF3232:Linger] effect from [c/9696FF:Hemo Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			HighTechGlove: {
+				DisplayName: Regal High Tech Glove
+				Tooltip:
+					'''
+					Adds [c/4BFFC8:Discharge] effect from [c/FFFF0A:High Tech Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			HoneyGlazedGlove: {
+				DisplayName: Honey Glazed Glove
+				Tooltip:
+					'''
+					Adds [c/FFAF00:Sticky Honey] effect from [c/FFC896:Honey Glazed Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} 2 seconds
+					'''
+			}
+
+			HoneyGlazedGlove1: {
+				DisplayName: Ancient Honey Glazed Glove
+				Tooltip:
+					'''
+					Adds [c/FFAF00:Sticky Honey] effect from [c/FFC896:Honey Glazed Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			HoneyGlazedGlove2: {
+				DisplayName: Regal Honey Glazed Glove
+				Tooltip:
+					'''
+					Adds [c/FFAF00:Sticky Honey] effect from [c/FFC896:Honey Glazed Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			ImpishGlove: {
+				DisplayName: Impish Glove
+				Tooltip:
+					'''
+					Adds [c/F02300:Hot Wings] effect from [c/FFC896:Impish Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} 2 seconds
+					'''
+			}
+
+			ImpishGlove1: {
+				DisplayName: Ancient Impish Glove
+				Tooltip:
+					'''
+					Adds [c/F02300:Hot Wings] effect from [c/FFC896:Impish Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			ImpishGlove2: {
+				DisplayName: Regal Impish Glove
+				Tooltip:
+					'''
+					Adds [c/F02300:Hot Wings] effect from [c/FFC896:Impish Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			IronGlove: {
+				DisplayName: Iron Glove
+				Tooltip:
+					'''
+					Adds [c/FFFFFF:Double Click] effect from [c/FFFFFF:Iron Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} 2 seconds
+					'''
+			}
+
+			IronGlove1: {
+				DisplayName: Ancient Iron Glove
+				Tooltip:
+					'''
+					Adds [c/FFFFFF:Double Click] effect from [c/FFFFFF:Iron Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			IronGlove2: {
+				DisplayName: Regal Iron Glove
+				Tooltip:
+					'''
+					Adds [c/FFFFFF:Double Click] effect from [c/FFFFFF:Iron Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			LanternGlove: {
+				DisplayName: Regal Lantern Glove
+				Tooltip:
+					'''
+					Adds [c/FF9B41:Incinerate] effect from [c/FFFF0A:Lantern Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			LeadGlove: {
+				DisplayName: Lead Glove
+				Tooltip:
+					'''
+					Adds [c/FFFFFF:Double Click] effect from [c/FFFFFF:Lead Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} 2 seconds
+					'''
+			}
+
+			LeadGlove1: {
+				DisplayName: Ancient Lead Glove
+				Tooltip:
+					'''
+					Adds [c/FFFFFF:Double Click] effect from [c/FFFFFF:Lead Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			LeadGlove2: {
+				DisplayName: Regal Lead Glove
+				Tooltip:
+					'''
+					Adds [c/FFFFFF:Double Click] effect from [c/FFFFFF:Lead Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			LihzahrdGlove: {
+				DisplayName: Regal Lihzahrd Glove
+				Tooltip:
+					'''
+					Adds [c/C84B00:Solar Flare] effect from [c/96FF0A:Lihzahrd Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			LordsGlove: {
+				DisplayName: Regal Lord's Glove
+				Tooltip:
+					'''
+					Adds [c/64FFC8:Conqueror] effect from [c/FF2864:Lord's Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			MagnetGlove: {
+				DisplayName: Magnet Glove
+				Tooltip:
+					'''
+					Adds [c/FFB4B4:Yoink] effect from [c/FFC896:Magnet Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} 2 seconds
+					'''
+			}
+
+			MagnetGlove1: {
+				DisplayName: Ancient Magnet Glove
+				Tooltip:
+					'''
+					Adds [c/FFB4B4:Yoink] effect from [c/FFC896:Magnet Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			MagnetGlove2: {
+				DisplayName: Regal Magnet Glove
+				Tooltip:
+					'''
+					Adds [c/FFB4B4:Yoink] effect from [c/FFC896:Magnet Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			MiceGlove: {
+				DisplayName: Regal Mice Glove
+				Tooltip:
+					'''
+					Adds [c/9696E1:Collision] effect from [c/FF2864:Mice Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			MouseGlove: {
+				DisplayName: Regal Mouse Glove
+				Tooltip:
+					'''
+					Adds [c/787878:Trap] effect from [c/FFFF0A:Mouse Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			MyceliumGlove: {
+				DisplayName: Mycelium Glove
+				Tooltip:
+					'''
+					Adds [c/7396DC:Spores] effect from [c/9696FF:Mycelium Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} 2 seconds
+					'''
+			}
+
+			MyceliumGlove1: {
+				DisplayName: Ancient Mycelium Glove
+				Tooltip:
+					'''
+					Adds [c/7396DC:Spores] effect from [c/9696FF:Mycelium Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			MyceliumGlove2: {
+				DisplayName: Regal Mycelium Glove
+				Tooltip:
+					'''
+					Adds [c/7396DC:Spores] effect from [c/9696FF:Mycelium Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			MythrilGlove: {
+				DisplayName: Ancient Mythril Glove
+				Tooltip:
+					'''
+					Adds [c/7DE17D:Embrittle] effect from [c/FF9696:Mythril Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			MythrilGlove1: {
+				DisplayName: Regal Mythril Glove
+				Tooltip:
+					'''
+					Adds [c/7DE17D:Embrittle] effect from [c/FF9696:Mythril Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			NaughtyGlove: {
+				DisplayName: Regal Naughty Glove
+				Tooltip:
+					'''
+					Adds [c/D79696:Presents] effect from [c/FFFF0A:Naughty Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			OrichalcumGlove: {
+				DisplayName: Ancient Orichalcum Glove
+				Tooltip:
+					'''
+					Adds [c/FF96FF:Petal Storm] effect from [c/FF9696:Orichalcum Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			OrichalcumGlove1: {
+				DisplayName: Regal Orichalcum Glove
+				Tooltip:
+					'''
+					Adds [c/FF96FF:Petal Storm] effect from [c/FF9696:Orichalcum Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			PalladiumGlove: {
+				DisplayName: Ancient Palladium Glove
+				Tooltip:
+					'''
+					Adds [c/FA9664:Regenerate] effect from [c/FF9696:Palladium Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			PalladiumGlove1: {
+				DisplayName: Regal Palladium Glove
+				Tooltip:
+					'''
+					Adds [c/FA9664:Regenerate] effect from [c/FF9696:Palladium Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			PharaohsGlove: {
+				DisplayName: Pharaoh's Glove
+				Tooltip:
+					'''
+					Adds [c/FADC00:Pharaoh's Command] effect from [c/96FF96:Pharaoh's Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} 2 seconds
+					'''
+			}
+
+			PharaohsGlove1: {
+				DisplayName: Ancient Pharaoh's Glove
+				Tooltip:
+					'''
+					Adds [c/FADC00:Pharaoh's Command] effect from [c/96FF96:Pharaoh's Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			PharaohsGlove2: {
+				DisplayName: Regal Pharaoh's Glove
+				Tooltip:
+					'''
+					Adds [c/FADC00:Pharaoh's Command] effect from [c/96FF96:Pharaoh's Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			PlatinumGlove: {
+				DisplayName: Platinum Glove
+				Tooltip:
+					'''
+					Adds [c/FFFFFF:Double Click] effect from [c/FFFFFF:Platinum Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} 2 seconds
+					'''
+			}
+
+			PlatinumGlove1: {
+				DisplayName: Ancient Platinum Glove
+				Tooltip:
+					'''
+					Adds [c/FFFFFF:Double Click] effect from [c/FFFFFF:Platinum Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			PlatinumGlove2: {
+				DisplayName: Regal Platinum Glove
+				Tooltip:
+					'''
+					Adds [c/FFFFFF:Double Click] effect from [c/FFFFFF:Platinum Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			PointyGlove: {
+				DisplayName: Pointy Glove
+				Tooltip:
+					'''
+					Adds [c/64AF4B:Stinging Thorn] effect from [c/FFC896:Pointy Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} 2 seconds
+					'''
+			}
+
+			PointyGlove1: {
+				DisplayName: Ancient Pointy Glove
+				Tooltip:
+					'''
+					Adds [c/64AF4B:Stinging Thorn] effect from [c/FFC896:Pointy Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			PointyGlove2: {
+				DisplayName: Regal Pointy Glove
+				Tooltip:
+					'''
+					Adds [c/64AF4B:Stinging Thorn] effect from [c/FFC896:Pointy Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			QuintessenceGlove: {
+				DisplayName: Regal Quintessence Glove
+				Tooltip:
+					'''
+					Adds [c/DCB4FF:Transcend] effect from [c/B428FF:Quintessence Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			RainbowGlove: {
+				DisplayName: Regal Rainbow Glove
+				Tooltip:
+					'''
+					Adds [c/D2A0FF:R][c/B428FF:a][c/9696FF:i][c/96FF96:n][c/FFFF0A:b][c/FFC896:o][c/FF2864:l][c/D2A0FF:t] effect from [c/FFFF0A:Rainbow Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			RedHotGlove: {
+				DisplayName: Red Hot Glove
+				Tooltip:
+					'''
+					Adds [c/FF7D00:Inferno] effect from [c/FFC896:Red Hot Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} 2 seconds
+					'''
+			}
+
+			RedHotGlove1: {
+				DisplayName: Ancient Red Hot Glove
+				Tooltip:
+					'''
+					Adds [c/FF7D00:Inferno] effect from [c/FFC896:Red Hot Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			RedHotGlove2: {
+				DisplayName: Regal Red Hot Glove
+				Tooltip:
+					'''
+					Adds [c/FF7D00:Inferno] effect from [c/FFC896:Red Hot Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			SandstormGlove: {
+				DisplayName: Ancient Sandstorm Glove
+				Tooltip:
+					'''
+					Adds [c/DCB978:Dust Devil] effect from [c/FF96FF:Sandstorm Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			SandstormGlove1: {
+				DisplayName: Regal Sandstorm Glove
+				Tooltip:
+					'''
+					Adds [c/DCB978:Dust Devil] effect from [c/FF96FF:Sandstorm Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			SeafoamGlove: {
+				DisplayName: Regal Seafoam Glove
+				Tooltip:
+					'''
+					Adds [c/A0E6C8:Sea Spray] effect from [c/FFFF0A:Seafoam Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			ShadowyGlove: {
+				DisplayName: Shadowy Glove
+				Tooltip:
+					'''
+					Adds [c/9664FF:Curse] effect from [c/9696FF:Shadowy Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} 2 seconds
+					'''
+			}
+
+			ShadowyGlove1: {
+				DisplayName: Ancient Shadowy Glove
+				Tooltip:
+					'''
+					Adds [c/9664FF:Curse] effect from [c/9696FF:Shadowy Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			ShadowyGlove2: {
+				DisplayName: Regal Shadowy Glove
+				Tooltip:
+					'''
+					Adds [c/9664FF:Curse] effect from [c/9696FF:Shadowy Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			ShroomiteGlove: {
+				DisplayName: Regal Shroomite Glove
+				Tooltip:
+					'''
+					Adds [c/9696FF:Auto Click] effect from [c/FFFF0A:Shroomite Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			SilverGlove: {
+				DisplayName: Silver Glove
+				Tooltip:
+					'''
+					Adds [c/FFFFFF:Double Click] effect from [c/FFFFFF:Silver Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} 2 seconds
+					'''
+			}
+
+			SilverGlove1: {
+				DisplayName: Ancient Silver Glove
+				Tooltip:
+					'''
+					Adds [c/FFFFFF:Double Click] effect from [c/FFFFFF:Silver Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			SilverGlove2: {
+				DisplayName: Regal Silver Glove
+				Tooltip:
+					'''
+					Adds [c/FFFFFF:Double Click] effect from [c/FFFFFF:Silver Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			SinisterGlove: {
+				DisplayName: Sinister Glove
+				Tooltip:
+					'''
+					Adds [c/641919:Siphon] effect from [c/9696FF:Sinister Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} 2 seconds
+					'''
+			}
+
+			SinisterGlove1: {
+				DisplayName: Ancient Sinister Glove
+				Tooltip:
+					'''
+					Adds [c/641919:Siphon] effect from [c/9696FF:Sinister Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			SinisterGlove2: {
+				DisplayName: Regal Sinister Glove
+				Tooltip:
+					'''
+					Adds [c/641919:Siphon] effect from [c/9696FF:Sinister Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			SlickGlove: {
+				DisplayName: Slick Glove
+				Tooltip:
+					'''
+					Adds [c/4B4BFF:Splash] effect from [c/96FF96:Slick Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} 2 seconds
+					'''
+			}
+
+			SlickGlove1: {
+				DisplayName: Ancient Slick Glove
+				Tooltip:
+					'''
+					Adds [c/4B4BFF:Splash] effect from [c/96FF96:Slick Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			SlickGlove2: {
+				DisplayName: Regal Slick Glove
+				Tooltip:
+					'''
+					Adds [c/4B4BFF:Splash] effect from [c/96FF96:Slick Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			SnottyGlove: {
+				DisplayName: Regal Snotty Glove
+				Tooltip:
+					'''
+					Adds [c/B4D796:Ogre Gold] effect from [c/D2A0FF:Snotty Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			SpaceGlove: {
+				DisplayName: Space Glove
+				Tooltip:
+					'''
+					Adds [c/AF4BFF:Star Storm] effect from [c/9696FF:Space Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} 2 seconds
+					'''
+			}
+
+			SpaceGlove1: {
+				DisplayName: Ancient Space Glove
+				Tooltip:
+					'''
+					Adds [c/AF4BFF:Star Storm] effect from [c/9696FF:Space Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			SpaceGlove2: {
+				DisplayName: Regal Space Glove
+				Tooltip:
+					'''
+					Adds [c/AF4BFF:Star Storm] effect from [c/9696FF:Space Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			SpectreGlove: {
+				DisplayName: Regal Spectre Glove
+				Tooltip:
+					'''
+					Adds [c/64FFFF:Phase Reach] effect from [c/FFFF0A:Spectre Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			SpiralGlove: {
+				DisplayName: Ancient Spiral Glove
+				Tooltip:
+					'''
+					Adds [c/A02823:Blood Sucker] effect from [c/FF9696:Spiral Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			SpiralGlove1: {
+				DisplayName: Regal Spiral Glove
+				Tooltip:
+					'''
+					Adds [c/A02823:Blood Sucker] effect from [c/FF9696:Spiral Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			StarryGlove: {
+				DisplayName: Starry Glove
+				Tooltip:
+					'''
+					Adds [c/FF32C8:Starfall] effect from [c/96FF96:Starry Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} 2 seconds
+					'''
+			}
+
+			StarryGlove1: {
+				DisplayName: Ancient Starry Glove
+				Tooltip:
+					'''
+					Adds [c/FF32C8:Starfall] effect from [c/96FF96:Starry Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			StarryGlove2: {
+				DisplayName: Regal Starry Glove
+				Tooltip:
+					'''
+					Adds [c/FF32C8:Starfall] effect from [c/96FF96:Starry Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			TheGlove: {
+				DisplayName: The Glove
+				Tooltip:
+					'''
+					Adds [c/FFFFFF:The Click] effect from [c/FF2864:The Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			TinGlove: {
+				DisplayName: Tin Glove
+				Tooltip:
+					'''
+					Adds [c/FFFFFF:Double Click] effect from [c/FFFFFF:Tin Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} 2 seconds
+					'''
+			}
+
+			TinGlove1: {
+				DisplayName: Ancient Tin Glove
+				Tooltip:
+					'''
+					Adds [c/FFFFFF:Double Click] effect from [c/FFFFFF:Tin Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			TinGlove2: {
+				DisplayName: Regal Tin Glove
+				Tooltip:
+					'''
+					Adds [c/FFFFFF:Double Click] effect from [c/FFFFFF:Tin Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			TitaniumGlove: {
+				DisplayName: Ancient Titanium Glove
+				Tooltip:
+					'''
+					Adds [c/969696:Razors Edge] effect from [c/FF9696:Titanium Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			TitaniumGlove1: {
+				DisplayName: Regal Titanium Glove
+				Tooltip:
+					'''
+					Adds [c/969696:Razors Edge] effect from [c/FF9696:Titanium Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			TorchGlove: {
+				DisplayName: Torch Glove
+				Tooltip:
+					'''
+					Adds [c/FFF5E1:Smite] effect from [c/FFC896:Torch Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} 2 seconds
+					'''
+			}
+
+			TorchGlove1: {
+				DisplayName: Ancient Torch Glove
+				Tooltip:
+					'''
+					Adds [c/FFF5E1:Smite] effect from [c/FFC896:Torch Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			TorchGlove2: {
+				DisplayName: Regal Torch Glove
+				Tooltip:
+					'''
+					Adds [c/FFF5E1:Smite] effect from [c/FFC896:Torch Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			TungstenGlove: {
+				DisplayName: Tungsten Glove
+				Tooltip:
+					'''
+					Adds [c/FFFFFF:Double Click] effect from [c/FFFFFF:Tungsten Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} 2 seconds
+					'''
+			}
+
+			TungstenGlove1: {
+				DisplayName: Ancient Tungsten Glove
+				Tooltip:
+					'''
+					Adds [c/FFFFFF:Double Click] effect from [c/FFFFFF:Tungsten Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			TungstenGlove2: {
+				DisplayName: Regal Tungsten Glove
+				Tooltip:
+					'''
+					Adds [c/FFFFFF:Double Click] effect from [c/FFFFFF:Tungsten Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			UmbralGlove: {
+				DisplayName: Umbral Glove
+				Tooltip:
+					'''
+					Adds [c/9664FF:Shadow Lash] effect from [c/FFC896:Umbral Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} 2 seconds
+					'''
+			}
+
+			UmbralGlove1: {
+				DisplayName: Ancient Umbral Glove
+				Tooltip:
+					'''
+					Adds [c/9664FF:Shadow Lash] effect from [c/FFC896:Umbral Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			UmbralGlove2: {
+				DisplayName: Regal Umbral Glove
+				Tooltip:
+					'''
+					Adds [c/9664FF:Shadow Lash] effect from [c/FFC896:Umbral Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			WebGlove: {
+				DisplayName: Ancient Web Glove
+				Tooltip:
+					'''
+					Adds [c/BEBEAF:Web Splash] effect from [c/FF9696:Web Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} second
+					'''
+			}
+
+			WebGlove1: {
+				DisplayName: Regal Web Glove
+				Tooltip:
+					'''
+					Adds [c/BEBEAF:Web Splash] effect from [c/FF9696:Web Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			WitchGlove: {
+				DisplayName: Regal Witch Glove
+				Tooltip:
+					'''
+					Adds [c/AF4BFF:Wild Magic] effect from [c/FFFF0A:Witch Clicker] to All Clickers
+					{$Common.Tooltips.GloveEvery} half-second
+					'''
+			}
+
+			AeroGlove: {
+				DisplayName: Aero Glove
+				Tooltip: ""
+			}
+		}
+	}
+}
