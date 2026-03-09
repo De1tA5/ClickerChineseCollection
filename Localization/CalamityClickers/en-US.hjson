@@ -4,150 +4,150 @@ Mods:{
 			#Pre-Hardmode
 			BasicAutoclicker: {
 				Name: Basic Autoclicker
-				Description: Allow autoclick with 7.5 click per second. Right Click to toggle this.
+				Description: Allow auto-clicking with 7.5 clicks per second. Right Click to toggle this on or off
 			}
 
 			Sandstorm: {
 				Name: Sandstorm
-				Description: Creates sandstorm explosion.
+				Description: Creates a sandstorm explosion
 			}
 
 			SeaBubble: {
 				Name: Sea Bubble
-				Description: Creates one bubble which slowly hit and flying away.
+				Description: Creates a slowly damaging bubble that floats away
 			}
 
 			Mushy: {
 				Name: Mushy
-				Description: You gets a buff 'Mushy' for 2 seconds.
+				Description: Grants the Mushy buff, which increases defense and life regen
 			}
 
 			SulphurousBubbles: {
 				Name: Sulphurous Bubbles
-				Description: Creates 4-5 bubbles that can be clicked for create an damaging area and inflict Irradiated
+				Description: Creates 4-5 bubbles that can be clicked on to create a damaging area that inflicts Irradiated
 			}
 
 			BloodyExplosion: {
 				Name: Bloody Splash
-				Description: Creates an splash explosion, inflict Burning Blood.
+				Description: Creates a splash explosion that inflicts Burning Blood
 			}
 
 			BrainExplosion: {
 				Name: Brain Explosion
-				Description: Creates an explosion of rotten brain, inflict the Brain Rot.
+				Description: Creates an explosion of rotten brain matter that inflicts Brain Rot
 			}
 
 			FeatherRain: {
 				Name: Feather Rain
-				Description: Fall a explosive feathers from sky into mouse position.
+				Description: Rains down explosive feathers
 			}
 
 			ReelIn: {
 				Name: Reel In
-				Description: Summon alive clickerfin. Killing him gives increased click damage by 25% for 10 seconds
+				Description: Summons a clickerfin. Killing it gives increases click damage by 25% for 10 seconds
 			}
 
 			SlimePuppet: {
 				Name: Slime Puppet
-				Description: Creates a slime ball which will make a short dash towards the cursor after a short period of time.
+				Description: Creates a slime ball which will make a short dash towards the cursor after a short period of time
 			}
 
 			# Hardmode
 			GaussFlux: {
 				Name: Gauss Flux
-				Description: Creates a turbulent magnetic force.
+				Description: Creates a turbulent magnetic force
 			}
 
 			BrimstoneInferno: {
 				Name: Brimstone Inferno
-				Description: Creates an explosion in the form of satanic sigil. Inflict a Brimstone Flames.
+				Description: Creates an explosion in the form of a satanic sigil that inflicts Brimstone Flames
 			}
 
 			CryoBomb: {
 				Name: Cryo Bomb
-				Description: Creates a cryobomb aroud cursor that can be clicked to release shards.
+				Description: Creates a cryobomb near the cursor that can be clicked on to release icy shards
 			}
 
 			DaedalusCrystals: {
 				Name: Daedalus Crystals
-				Description: Creates a homing daedalus bolts.
+				Description: Creates several homing daedalus bolts
 			}
 
 			Crunch: {
 				Name: Crunch
-				Description: Inflict Armor Crunch for 3 seconds for nearest enemies.
+				Description: Inflicts Armor Crunch for 3 seconds on the nearest enemies
 			}
 
 			ChaosFlame: {
 				Name: Chaos Flame
-				Description: Create small portal-like flame. Inflict Brimstone Flames.
+				Description: Create small portal-like flame that inflicts Brimstone Flames
 			}
 
 			#Post-Plantera
 			TerraAura: {
 				Name: Terra Aura
-				Description: Create a damaging aura which last 3 seconds.
+				Description: Creates a edenic damaging aura that lasts 3 seconds
 			}
 
 			GreenInfection: {
 				Name: Green Infection
-				Description: Fires {0} burning green ichor streams that home in at enemies.
+				Description: Creates {0} burning green ichor streams that home in on enemies
 			}
 
 			AnahitasVoice: {
 				Name: Anahita's Voice
-				Description: Creates a circle of music notes.
+				Description: Creates a circle of damaging musical notes
 			}
 
 			CoolFlake: {
 				Name: Cool Flake
-				Description: Creates Snowflake minion. Only one exist. Updates a lifetime of existing snowflake.
+				Description: Creates a snowflake minion. If there is already a snowflake minion, refresh its lifetime
 			}
 
 			AureusBlast: {
-				Name: Aureus Blast
-				Description: Shoots a aureus blast for every nearest enemies around cursor position. Also clicker effect adapted for single target.
+				Name: Auroradical Blast
+				Description: Shoots laser-fast aureus blasts for every nearby enemy around the cursor's position
 			}
 
 			StellarScythe: {
 				Name: Stellar Scythe
-				Description: Creates a scythe that change velocity direction to mouse position.
+				Description: Creates a piercing scythe that flies towards the cursor after a short period of time
 			}
 
 			# Post-Golem
 			PlagueBees: {
 				Name: Plague Bees
-				Description: Summon a lot of plague seekers. Inflict Plague.
+				Description: Summons a lot of plague seekers that inflict the Plague
 			}
 
 			Eruption: {
 				Name: Eruption
-				Description: Creates a explosion damaging area.
+				Description: Creates a large scorching explosion
 			}
 
 			StarRain: {
 				Name: Star Rain
-				Description: Shoots 4 astral stars from sky into mouse cursor position.
+				Description: Rains down piercing astral stars
 			}
 
 			Stardust: {
 				Name: Stardust
-				Description: Release a stardust around cursor.
+				Description: Creates a stardust explosion
 			}
 
 			Entropy: {
 				Name: Head Death
-				Description: Create big meld energy explosion on cursor postion.
+				Description: Creates a large meld energy explosion
 			}
 
 			BloodBlasts: {
 				Name: Blood Blasts
-				Description: Causes 8 blood blast projectiles to be summoned near the player and shoot across the screen.
+				Description: Shoots 8 blood shots diagonally towards the cursor
 			}
 
 			TaurusFang: {
 				Name: Taurus' Fang
-				Description: Creates an 13 homing Arid Fangs that stucks in enemy
+				Description: Creates 13 homing Arid Fangs that impale enemies
 			}
 
 			# Post-Moonlord
@@ -155,7 +155,7 @@ Mods:{
 			
 			ElementalAura: {
 				Name: Elemental Aura
-				Description: Create a damaging elemental aura which last 2 seconds. Inflict Elemental Mix for 1 second.
+				Description: Creates a damaging elemental aura that lasts 2 seconds and inflicts Elemental Mix
 			}
 
 			PlagueBees2: {
@@ -165,75 +165,75 @@ Mods:{
 
 			RedLightning: {
 				Name: Red Lightning
-				Description: Creates a four lighning from sky.
+				Description: Causes 4 lightning bolts to rain down from the sky
 			}
 
 			#Post-Providence
 			ProfanedInferno: {
 				Name: Profaned Inferno
-				Description: Create holy flare explosion. Inflict Holy Flames for 3 seconds.
+				Description: Creates a holy flare explosion that inflicts Holy Flames for 3 seconds
 			}
 
 			TarragonThorns: {
 				Name: Tarragon Thorns
-				Description: Grown thorns in 8 directions.
+				Description: Creates 8 thorns which grow outward
 			}
 
 			Judgement: {
 				Name: Judgement
-				Description: Smite your targets by holy deathray from sky
+				Description: Calls forth a righteous column of light that smites and delivers judgement upon those who are foolish enough to oppose you
 			}
 
 			NovaSlimer: {
 				Name: Nova Slimer
-				Description: Summon a homing Novaslime
+				Description: Summons a homing Novaslime
 			}
 
 			# Post-Polterghast
 			GhastlyPortal: {
 				Name: Call to the Beyond
-				Description: Summon Ghastly Portal which summon homing souls in response to your clicks.
+				Description: Summons a Ghastly Portal which spews forth homing souls in response to your clicks
 			}
 
 			StratusMoon: {
 				Name: Stratus Moon
-				Description: Create moons and then towards your cursor.
+				Description: Creates a circle of moons that fly towards your cursor after a while
 			}
 
 			Lifestealing: {
 				Name: Lifestealing
-				Description: Heal 2 hp on click of target has Marked for Death.
+				Description: Heals you by 2 hp if the target is Marked for Death
 			}
 
 			BloodyKnives: {
 				Name: Bloody Knives
-				Description: Creates a knives, what stucks on hit and inflict Burning Blood and Marked for Death.
+				Description: Creates knives that impale enemies and inflict Burning Blood and Marked for Death
 			}
 
 			PhantasmalReach: {
 				Name: Phantasmal Reach
-				Description: Changes damage based on how far cursor from player. From 0.75x in player position to 1.75x in corner of the screen
+				Description: Deals damage in accordance with the distance from the player; can go as low as 0.75x and up to 1.75x damage at max range
 			}
 
 			# Post-DoG
 			NebulaStars: {
 				Name: Nebula Stars
-				Description: Summon circle of stars that homes after a few time.
+				Description: Summons a circle of stars that home in on enemies after a short period
 			}
 
 			Distort: {
 				Name: Distort
-				Description: Warps spacetime around the cursor, summoning a flurry pf piercing knives, that shoot in reacting to your clicks.
+				Description: Summons a flurry of piercing knives that move in reaction to your clicks
 			}
 
 			NightmareMagic: {
 				Name: Nightmare Magic
-				Description: Randomly acts as any possible click effect.
+				Description: Randomly acts as any possible click effect
 			}
 
 			Totality2: {
 				Name: Super Totality
-				Description: Creates a miniature eclipse, repeatedly firing out a lot of homing projectiles.
+				Description: Creates a miniature darksun that repeatedly fires various homing projectiles
 			}
 
 			NuclearExplosion: {
@@ -244,81 +244,81 @@ Mods:{
 			# Post-Yharon
 			PhoenixWrath: {
 				Name: Phoenix Wrath
-				Description: Call in a wrath of Phoenixes to blast the area with flames. Inflict Dragonfire.
+				Description: Calls in dragons to scorch the area with Dragonfire inflicting flames
 			}
 
 			MiceCatalyst: {
 				Name: Mice Catalyst
-				Description: Summon a catalyst cloud that creates projectiles which homes to mouse position.
+				Description: Summons a catalyst cloud that creates homing nebula projectiles
 			}
 
 			Popstar: {
 				Name: Popstar
-				Description: Fall the Omega Star that spit to 3 rings of stars on mouse position
+				Description: Drops a large omega star that splits into three rings of smaller stars that start homing after a while
 			}
 
 			# Pre-Endgame Bosses
 			MiniExoTwins: {
 				Name: Olympic Call
-				Description: Summon mini Artemis and Mini Apollo to attack around cursor.
+				Description: Summons mini Artemis and Mini Apollo to attack the cursor
 			}
 
 			Exomination: {
 				Name: Exomination
-				Description: Explodes in a larger radius by exo energy.
+				Description: Creates a large exo energy explosion
 			}
 
 			LecherousOrb: {
 				Name: Lecherous Orb
-				Description: Creates Lecherous Orb that accumulates life power but starting cost 20 life.
+				Description: Creates Lecherous Orbs that accumulate life hearts and can be clicked to pop them open. This effect costs 20 hp
 			}
 
 			# Endgame
 			ItzClick: {
 				Name: Itz Click
-				Description: Inflict very powerful damage over time debuff.
+				Description: Inflicts a very powerful damage over time debuff
 			}
 
 			Mischief: {
 				Name: Mischief
-				Description: Summon a mini rat clicker that clicks and trigger clicker effects of nearby clickers in inventory (except Mischief)
+				Description: Summons a mini rat clicker that can trigger clicker effects of nearby clickers in the inventory (except Mischief)
 			}
 
 			# Equip
 			DaedalusLightning: {
 				Name: Daedalus Lightning
-				Description: Attracts power of Daedalus from sky. (creates lightnings)
+				Description: Attracts the power of Daedalus from the sky
 			}
 
 			BurnOrBliss: {
 				Name: Burn or Bliss
-				Description: Releases a burst of damaging normal, spicy and white chocolate
+				Description: Releases a burst of damaging normal, spicy and white chocolates
 			}
 
 			# Draedon
 			ScrapMissile: {
 				Name: Scrap Missile
-				Description: Shoots a missle from above at the target that shatters on impact
+				Description: Shoots a missle from above towards the target that shatters on impact
 			}
 
 			DrillShot: {
 				Name: Drill Shot
-				Description: Shoots a Drill that latches onto at enemy
+				Description: Shoots a Drill that latches onto enemies.
 			}
 
 			Electrofield: {
 				Name: Electrofield
-				Description: Summon a lingering electromagnetic field that extends on hit
+				Description: Summons a lingering electromagnetic field that extends on hit.
 			}
 
 			VitalInfusion: {
 				Name: Vital Infusion
-				Description: Charges a green BioNeedle next to player. Right Click to heal 25 health by cost of one needle
+				Description: Charges a green BioNeedle next to player. Right Click to heal 25 health at the cost of one needle.
 			}
 
 			CurrentStrike: {
 				Name: Current Strike
-				Description: Fires a powerful currents of ionized particles that arcs through enemies
+				Description: Fires a powerful current of ionized particles that arcs through enemies.
 			}
 		}
 
@@ -376,7 +376,7 @@ Mods:{
 							'''
 						SetBonus:
 							'''
-							Every 15 clicks you creates a lightnings from sky
+							Every 15 clicks you call down lightning from the sky
 							5% increased clicker damage
 							'''
 					}
@@ -394,11 +394,11 @@ Mods:{
 							Inferno effect when below 50% life
 							You emit a blazing explosion when you are hit
 							5% increased clicker damage
-							Inflict a 'Hydrothermic Boil' on hit by clicker weapons
-							'Hydrothermic Boil' is DoT debuff with 50 base damage over time
-							Hitting by clicker weapons increase debuff dps by 5 and expand time by 0.1 second
-							up to 500 dps and 20 second of time
-							Debuff acts as Heat debuff
+							Inflict a 'Hydrothermic Boil' on hits from clicker weapons
+							'Hydrothermic Boil' deals 50 base damage over time
+							Hitting with clicker weapons increases the debuffs dps by 5 and extends its time by 0.1 seconds
+							up to 500 dps and 20 seconds
+							Debuff acts as a Heat debuff
 							'''
 					}
 
@@ -413,8 +413,8 @@ Mods:{
 							'''
 							Surrounds you with two rings of asteroids whose damages scale with your stats
 							Press '{Mods.CatalystMod.Keybinds.ToggleVisibility}' to make the asteroids more transparent
-							Using a clicker weapons to fly asteroids from belts
-							Asteroids can regenerate over time or using a clicker weapons
+							Using a clicker weapon launches the asteroids.
+							Asteroids can regenerate over time or by using clicker weapons
 							'''
 					}
 
@@ -431,9 +431,10 @@ Mods:{
 							'''
 							Increased heart pickup range
 							Enemies have a chance to drop extra hearts on death
-							Hitting enemies by clicker weapons increase defence by 1 and damage reduction by 0.2% and expand buff time by 1 second
-							up to 50 defence, 10% damage reduction and 20 second of time
-							Getting hit resets buff, gets 10 second to cooldown and summon damaging roots
+							Hitting enemies with clicker weapons gives you a buff that increases your defense and damage reduction
+							More hits will increase this buff's defence by 1, damage reduction by 0.2% and buff time by 1 second
+							up to 50 defence, 10% damage reduction and 20 seconds of time
+							Getting hit resets the buff with a 10 second cooldown and creates damaging roots
 							'''
 					}
 
@@ -449,9 +450,9 @@ Mods:{
 							Greatly increased life regen, equivalent to Crimson armor
 							Enemies below 50% life drop a heart when struck
 							This effect has a 5 second cooldown
-							Reduces the amount of clicks required for a click effect based on your currect life
-							Maximum you gain 20% of reducing
-							Hitting an enemies with clicker weapon increase health regen time
+							Reduces the amount of clicks required for a click effect based on your current life
+							Up to 20% reduced at max hp.
+							Hitting enemies with a clicker weapon increases life regen.
 							'''
 					}
 
@@ -461,13 +462,13 @@ Mods:{
 							'''
 							14% increased clicker damage and critical strike chance
 							45% increased clicker radius
-							10% reduced the amount of clicks required for a click effect 
+							10% reduced amount of clicks required for a click effect 
 							'''
 						SetBonus:
 							'''
 							Increases click critical chance by 1% by each consecutive non-critical hit
-							Bonus resets after dealing critical hit
-							After dealing 50 click critical hits, the user gives an 'Ultraboost' that guarants critical hits
+							Bonus resets after dealing a critical hit
+							After dealing 50 clicker critical hits, you gain a buff that guarantees critical hits
 							'Ultraboost' has 30 second of cooldown
 							'''
 					}
@@ -592,7 +593,7 @@ Mods:{
 					}
 
 					FloraClicker: {
-						DisplayName: Edemic Petal
+						DisplayName: Edenic Petal
 						DisplayNameLegecy: Flora Clicker
 					}
 
@@ -695,7 +696,7 @@ Mods:{
 						DisplayNameLegecy: Exo Clicker
 					}
 
-					MiracleClicker.DisplayName: Miracle Clicker
+					MiracleClicker.DisplayName: Relish
 					CruelClicker.DisplayName: Cruel Clicker
 					#
 					# Endgame
@@ -720,7 +721,7 @@ Mods:{
 						'''
 						30% increased clicker damage
 						50% increased clicker radius
-						20% reduced the amount of clicks required for a click effect
+						20% reduced amount of clicks required for a click effect
 						Pressing the 'Clicker Accessory' key will toggle auto click on all Clickers
 						While auto click is enabled, click rates are slightly decreased
 						Pressing the 'Clicker Aim Assist' key will toggle aimbot, targeting nearby enemies automatically. 
@@ -734,8 +735,8 @@ Mods:{
 					Tooltip:
 						'''
 						Your first click when out of combat will automatically trigger its clicker effect.
-						Trigger extra clicker effect while you not have cooldown
-						After trigger you gets 10 second of cooldown
+						Triggers an extra clicker effect while you are not on cooldown
+						After triggering, there is a 10-second cooldown.
 						'''
 					DisplayName: Finger Of Blood God
 				}
@@ -746,7 +747,7 @@ Mods:{
 						'''
 						{$Mods.ClickerClass.Items.RegalClickingGlove.Tooltip}
 						25% increased click damage when under 20% life
-						Inflict debuff whith power based on how fast you clicks
+						Inflicts a debuff with power based on how fast you click
 						'''
 				}
 
@@ -756,11 +757,11 @@ Mods:{
 						'''
 						While equipped, cookies will periodically spawn within your clicker radius
 						Click the cookie to gain bonus clicker damage, radius, and life regeneration
-						Has chance to replace cookie to Bloody Cookie that increase click damage, crit, and rage regeneration instead
+						Has chance to replace cookies with bloody cookies that increase click damage, crit, and rage regeneration instead
 						Gain up to 15% clicker damage based on your amount of clicks within a second
-						Every 15 clicks releases a burst of damaging normal, spicy or white chocolate
-						Spicy chocolate inflict Brimstone Flames and deal more damage than other types
-						White chocolate homes to owner player in small radius and heal 4 health on contact
+						Every 15 clicks releases a burst of damaging normal, spicy or white chocolates
+						Spicy chocolate iinflicts Brimstone Flames and deal more damage than other types
+						White chocolate homes towards the player in and heals 4 health on contact
 						'''
 				}
 
@@ -770,8 +771,8 @@ Mods:{
 						'''
 						While equipped, empowering circles will rotate around you
 						Keeping your cursor within the circles will build up clicker critical strikes, clicker radius, and clicker effects
-						Keeping yoou cursor within the center circle will build up all stats above in one time
-						Right Click on fully charged center circle will release an energy but consume all circle's boosts
+						Keeping your cursor within the center circle will build up all stats listed above at the same time.
+						Right Clicking on the fully charged center circle will release energy but will consume all the circle boosts
 						'''
 				}
 
@@ -781,7 +782,7 @@ Mods:{
 						'''
 						Clickers within the inner 50% of your clicker radius deal 10 more damage
 						5% increased click critical chance
-						After click crititical hit has 20% chance to supercrit with 3x damage than 2x
+						Clicker critical hits have a 20% chance to supercrit with 3x damage instead of 2x
 						'''
 				}
 
@@ -792,7 +793,7 @@ Mods:{
 						{$Mods.ClickerClass.Items.RegalClickingGlove.Tooltip}
 						Clickers within the inner 50% of your clicker radius deal 25 more damage
 						10% increased click critical chance
-						After click crititical hit has 20% chance to supercrit with 3x damage than 2x
+						Clicker critical have a 20% chance to supercrit with 3x damage instead of 2x
 						'''
 				}
 
@@ -803,7 +804,7 @@ Mods:{
 						{$Mods.ClickerClass.Items.RegalClickingGlove.Tooltip}
 						Clickers within the inner 50% of your clicker radius deal 100 more damage
 						15% increased click critical chance
-						After click crititical hit has 20% chance to supercrit with 3x damage than 2x
+						Clicker critical have a 20% chance to supercrit with 3x damage instead of 2x
 						{$Mods.CalamityClickers.Items.Accessories.FingerOfBloodGod.Tooltip}
 						'''
 				}
@@ -873,37 +874,39 @@ Mods:{
 				FusionPointerPro.DisplayName: Ionized Particles
 				BereftVassalsClickerPro.DisplayName: Arid Fangs
 			}
+
+			Summon.SarosMicrosun.DisplayName: Saros Microsun
 		}
 
 		Buffs: {
 			GodSlayerOverclockBuff: {
 				DisplayName: God Slayer Overclock
-				Description: You can every click trigger all active click effects with reduced damage
+				Description: You trigger your click effects every click at a reduced amount of damage.
 			}
 
 			WulfrumClickerBuff: {
 				DisplayName: Wulfrum Clicker Mode Visualization
-				Description: You now has autoclicker
+				Description: You are now autoclicking
 			}
 
 			ItsClickerDebuff: {
 				DisplayName: True Wither
-				Description: You think this debuff has tooltip. NO!
+				Description: You think this debuff has a tooltip. NO!
 			}
 
 			BeetleClickingGloveDebuff: {
 				DisplayName: Beetle Clicking Glove Power
-				Description: You think this debuff has tooltip. NO!
+				Description: You think this debuff has a tooltip. NO!
 			}
 
 			BloodyChocCookiesBuff: {
 				DisplayName: Bloody Cookie
-				Description: Increases your click damage and crit and rage regeneration
+				Description: Increases your click damage, crit and rage regeneration
 			}
 
 			GodSlayerCapsuitBuff: {
 				DisplayName: Hyperboost
-				Description: Clickers now always inflict critical strike
+				Description: Clickers now always critically hit
 			}
 
 			HydrothermicCapsuitDebuff: {
@@ -952,7 +955,7 @@ Mods:{
 			RecipeGroup.AnyNormalSFXButton: Any Normal SFX Button
 
 			Death: {
-				BloodyClicker0: "{0} has eat more cookies than can digest"
+				BloodyClicker0: "{0} ate more cookies than they can digest"
 				BloodyClicker1: "{0} died of diabetes"
 			}
 		}
