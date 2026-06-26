@@ -169,7 +169,7 @@ ClickEffect: {
 	#Post-Providence
 	ProfanedInferno: {
 		Name: Profaned Inferno
-		Description: Creates a holy flare explosion that inflicts Holy Flames for 3 seconds
+		Description: Release a profaned energy. Inflicts Holy Flames for 3 seconds
 	}
 
 	TarragonThorns: {
@@ -196,6 +196,11 @@ ClickEffect: {
 	StratusMoon: {
 		Name: Stratus Moon
 		Description: Creates a circle of moons that fly towards your cursor after a while
+	}
+
+	Constellation: {
+		Name: Constellation
+		Description: Every 10th click spawns constellation star. Right Click to detonate it and applies Voidfrost
 	}
 
 	Lifestealing: {
@@ -318,6 +323,11 @@ ClickEffect: {
 		Name: Current Strike
 		Description: Fires a powerful current of ionized particles that arcs through enemies.
 	}
+
+	DoubleClick: {
+		Name: Double Click
+		Description: $Mods.ClickerClass.Common.Unknown
+	}
 }
 
 Items: {
@@ -325,10 +335,10 @@ Items: {
 		Capsuit: {
 			VictideCapsuit: {
 				DisplayName: Victide Anemonous Mask
-				Tooltip: 5% increased clicker damage
+				Tooltip: 5% increased click damage
 				SetBonus:
 					'''
-					10% increased clicker radius
+					10% increased click radius
 					+1.5 HP/s life regen and 10% increased click damage while submerged in liquid
 					'''
 			}
@@ -337,8 +347,8 @@ Items: {
 				DisplayName: Aerospec Capsuit
 				Tooltip:
 					'''
-					8% increased clicker damage
-					15% increased clicker radius
+					8% increased click damage
+					15% increased click radius
 					'''
 				SetBonus:
 					'''
@@ -352,9 +362,9 @@ Items: {
 				DisplayName: Statigel Headband
 				Tooltip:
 					'''
-					10% increased clicker damage
-					7% increased clicker critical strike chance
-					25% increased clicker radius
+					10% increased click damage
+					7% increased click critical strike chance
+					25% increased click radius
 					'''
 				SetBonus:
 					'''
@@ -368,14 +378,14 @@ Items: {
 				DisplayName: Daedalus Visor
 				Tooltip:
 					'''
-					8% increased clicker damage
-					7% increased clicker critical strike chance
-					25% increased clicker radius
+					8% increased click damage
+					7% increased click critical strike chance
+					25% increased click radius
 					'''
 				SetBonus:
 					'''
 					Every 15 clicks you call down lightning from the sky
-					5% increased clicker damage
+					5% increased click damage
 					'''
 			}
 
@@ -383,20 +393,17 @@ Items: {
 				DisplayName: Hydrothermic Headsets
 				Tooltip:
 					'''
-					12% increased clicker damage
-					10% increased clicker critical strike chance
-					25% increased clicker radius
+					12% increased click damage
+					10% increased click critical strike chance
+					25% increased click radius
 					'''
 				SetBonus:
 					'''
-					Inferno effect when below 50% life
 					You emit a blazing explosion when you are hit
-					5% increased clicker damage
-					Inflict a 'Hydrothermic Boil' on hits from clicker weapons
-					'Hydrothermic Boil' deals 50 base damage over time
-					Hitting with clicker weapons increases the debuffs dps by 5 and extends its time by 0.1 seconds
+					Inflict a [cbuff:CalamityClickers/HydrothermicCapsuitDebuff] on hits from clicker weapons
+					Hitting with clicker weapons increases the debuffs' dps by 5 and extends its time by 0.1 seconds
 					up to 500 dps and 20 seconds
-					Debuff acts as a Heat debuff
+					{$Mods.CalamityMod.Items.Armor.Hardmode.HydrothermicArmor.CommonSetBonus}
 					'''
 			}
 
@@ -404,8 +411,8 @@ Items: {
 				DisplayName: Intergelactic Scouter Mask
 				Tooltip:
 					'''
-					15% increased clicker damage and critical strike chance
-					30% increased clicker radius
+					15% increased click damage and critical strike chance
+					30% increased click radius
 					'''
 				SetBonus:
 					'''
@@ -420,10 +427,9 @@ Items: {
 				DisplayName: Tarragon Biomask
 				Tooltip:
 					'''
-					10% increased clicker damage
+					10% increased click damage
 					5% increased clicker critical strike chance
-					25% increased clicker radius
-					5% increased damage reduction
+					25% increased click radius
 					'''
 				SetBonus:
 					'''
@@ -440,8 +446,8 @@ Items: {
 				DisplayName: Bloodflare Clickmera Skull
 				Tooltip:
 					'''
-					10% increased clicker damage and clicker critical strike chance
-					35% increased clicker radius
+					10% increased click damage and clicker critical strike chance
+					35% increased click radius
 					'''
 				SetBonus:
 					'''
@@ -458,8 +464,8 @@ Items: {
 				DisplayName: God Slayer Cloaker Hood
 				Tooltip:
 					'''
-					14% increased clicker damage and critical strike chance
-					45% increased clicker radius
+					14% increased click damage and critical strike chance
+					45% increased click radius
 					10% reduced amount of clicks required for a click effect 
 					'''
 				SetBonus:
@@ -468,6 +474,7 @@ Items: {
 					Bonus resets after dealing a critical hit
 					After dealing 50 clicker critical hits, you gain a buff that guarantees critical hits
 					'Ultraboost' has 30 second of cooldown
+					{$Mods.CalamityMod.Items.Armor.PostMoonLord.GodSlayerChestplate.CommonSetBonus}
 					'''
 			}
 
@@ -475,8 +482,8 @@ Items: {
 				DisplayName: Auric Tesla Gamer Mask
 				Tooltip:
 					'''
-					30% increased clicker damage and critical strike chance
-					100% increased clicker radius
+					30% increased click damage and critical strike chance
+					100% increased click radius
 					10% reduced the amount of clicks required for a click effect 
 					'''
 				SetBonus: Clicker Tarragon, Bloodflare and God Slayer effects
@@ -710,6 +717,7 @@ Items: {
 			Bioinjector.DisplayName: Bioinjector
 			FusionPointer.DisplayName: Fusion Pointer
 			BereftVassalsClicker.DisplayName: Taurus' Fang
+			MonolithClicker.DisplayName: Monolith Clicker
 		}
 	}
 
@@ -717,8 +725,8 @@ Items: {
 		DOG: {
 			Tooltip:
 				'''
-				30% increased clicker damage
-				50% increased clicker radius
+				30% increased click damage
+				50% increased click radius
 				20% reduced amount of clicks required for a click effect
 				Pressing the 'Clicker Accessory' key will toggle auto click on all Clickers
 				While auto click is enabled, click rates are slightly decreased
@@ -812,6 +820,18 @@ Items: {
 	SFXButtonAstral.DisplayName: SFX Button - Astral
 	SFXButtonAuric.DisplayName: SFX Button - Auric
 	SFXButtonExhume.DisplayName: SFX Button - Exhume
+
+	Potions: {
+		GCharge: {
+			DisplayName: G-Charge
+			Tooltip:
+				'''
+				Increase click damage by 2% per click per second
+				10% increased amount of clicks required for a click effect
+				{$Mods.CalamityMod.Common.AlcoholWarning}
+				'''
+		}
+	}
 }
 
 Projectiles: {
@@ -836,7 +856,9 @@ Projectiles: {
 		RuinousClickerProjectile.DisplayName: Ruinous Portal
 		RuinousClickerProjectileSoul.DisplayName: Ruinous Soul
 		DaedalusClickerProjectile.DisplayName: Daedalus Crystals
-		StratusClickerProjectile.DisplayName: Stratus Moon
+		StratusClickerProjectileOld.DisplayName: Stratus Moon
+		StratusClickerProjectile.DisplayName: Constellation Star
+		StratusClickerProjectileExplosion.DisplayName: Constellation Star Supernova
 		DarksunClickerProjectile.DisplayName: Dark Sun
 		ClickerOfGodsProjectile.DisplayName: Nebula Star
 		StarblightClickerProjectile.DisplayName: Astral Dust
@@ -871,6 +893,7 @@ Projectiles: {
 		BioinjectorPro.DisplayName: BioNeedle
 		FusionPointerPro.DisplayName: Ionized Particles
 		BereftVassalsClickerPro.DisplayName: Arid Fangs
+		MonolithClickerProjectile.DisplayName: Monolith Clicker Projectile
 	}
 
 	Summon.SarosMicrosun.DisplayName: Saros Microsun
@@ -910,11 +933,17 @@ Buffs: {
 	HydrothermicCapsuitDebuff: {
 		DisplayName: Hydrothermic Boil
 		Description: You don't know description
+		ItemTooltipEnemy: Heat - 50 DPS + 5 per stack (Max 500 DPS)
 	}
 
 	ClickerfinBuff: {
 		DisplayName: Clickerfin Wrath
 		Description: Increased click damage by 25%
+	}
+
+	GChargeBuff: {
+		DisplayName: G-Charge
+		Description: Click damage increased based on CPS, but clicker effects less often appears
 	}
 }
 
