@@ -43,7 +43,7 @@ ClickEffect: {
 	ReelIn: {
 		Name: 拉线
 		Description:
-			''' 
+			'''
 			召唤点击鱼，杀死它增加25%点击伤害，持续10秒
 			[C/959595:（疑似bug）]
 			'''
@@ -173,7 +173,7 @@ ClickEffect: {
 	#Post-Providence
 	ProfanedInferno: {
 		Name: 亵渎炼狱
-		Description: 造成神圣之火爆破，并施加3秒的[c/FCD200:神圣之火]减益
+		Description: 释放亵渎能量，并施加3秒的[c/FCD200:神圣之火]减益
 	}
 
 	TarragonThorns: {
@@ -200,6 +200,11 @@ ClickEffect: {
 	StratusMoon: {
 		Name: 幻云月
 		Description: 召唤一轮新月停留一段时间后朝光标处飞去
+	}
+
+	Constellation: {
+		Name: 星座
+		Description: 每第10次点击会生成星座星辉，右键点击引爆星座星辉并施加[C/85C3D3:虚空霜蚀]减益
 	}
 
 	Lifestealing: {
@@ -322,6 +327,11 @@ ClickEffect: {
 		Name: 电流打击
 		Description: 发射强大的电离粒子流穿透敌怪
 	}
+
+	DoubleClick: {
+		Name: 双击
+		Description: “{$Mods.ClickerClass.Common.Unknown}”
+	}
 }
 
 Items: {
@@ -394,14 +404,11 @@ Items: {
 					'''
 				SetBonus:
 					'''
-					生命值低于50%时获得狱火药水效果
 					受伤时产生巨大爆炸
-					增加5%点击伤害
-					用点击器会施加[c/EB4E00:渊泉爆沸]减益
-					[c/EB4E00:渊泉爆沸]每秒造成50点基础伤害
-					使用点击器增加减益5点伤害并延长1秒
+					用点击器会施加[cbuff:CalamityClickers/HydrothermicCapsuitDebuff]减益
+					使用点击器增加减益伤害5点并延长0.1秒
 					最高造成每秒500点伤害和20秒时间
-					该减益效果类似燃烧减益
+					{$Mods.CalamityMod.Items.Armor.Hardmode.HydrothermicArmor.CommonSetBonus}
 					'''
 			}
 
@@ -428,7 +435,6 @@ Items: {
 					增加10%点击伤害
 					增加5%点击暴击率
 					增加25%点击范围
-					增加5%伤害减免
 					'''
 				SetBonus:
 					'''
@@ -473,6 +479,7 @@ Items: {
 					暴击后效果重置
 					造成50次点击暴击后，获得[c/D75FF5:究极激发]使得之后每次点击都造成暴击
 					[c/D75FF5:究极激发]有30秒的冷却
+					{$Mods.CalamityMod.Items.Armor.PostMoonLord.GodSlayerChestplate.CommonSetBonus}
 					'''
 			}
 
@@ -715,6 +722,7 @@ Items: {
 			Bioinjector.DisplayName: 生命注射器
 			FusionPointer.DisplayName: 聚变指针
 			BereftVassalsClicker.DisplayName: 狂鲨獠牙
+			MonolithClicker.DisplayName: 巨岩点击器
 		}
 	}
 
@@ -817,6 +825,18 @@ Items: {
 	SFXButtonAstral.DisplayName: 音效按钮-星幻
 	SFXButtonAuric.DisplayName: 音效按钮-圣金源
 	SFXButtonExhume.DisplayName: 音效按钮-咒术炼注
+
+	Potions: {
+		GCharge: {
+			DisplayName: G-Charge
+			Tooltip:
+				'''
+				每秒每点击一次，增加2%点击伤害
+				但是增加10%点击所需效果的点击次数
+				{$Mods.CalamityMod.Common.AlcoholWarning}
+				'''
+		}
+	}
 }
 
 Projectiles: {
@@ -842,6 +862,8 @@ Projectiles: {
 		RuinousClickerProjectileSoul.DisplayName: 毁灭之魂
 		DaedalusClickerProjectile.DisplayName: 代达罗斯水晶
 		StratusClickerProjectile.DisplayName: 幻云月
+		StratusClickerProjectile.DisplayName: 星座星辉
+		StratusClickerProjectileExplosion.DisplayName: 星座星辉超新星爆炸
 		DarksunClickerProjectile.DisplayName: 暗日
 		ClickerOfGodsProjectile.DisplayName: 星云恒星
 		StarblightClickerProjectile.DisplayName: 星尘
@@ -876,6 +898,7 @@ Projectiles: {
 		BioinjectorPro.DisplayName: 生命注射器
 		FusionPointerPro.DisplayName: 电离粒子
 		BereftVassalsClickerPro.DisplayName: 狂鲨獠牙
+		MonolithClickerProjectile.DisplayName: 巨岩点击弹幕
 	}
 
 	Summon.SarosMicrosun.DisplayName: 沙罗微日
@@ -915,11 +938,17 @@ Buffs: {
 	HydrothermicCapsuitDebuff: {
 		DisplayName: 渊泉爆沸
 		Description: 你不该看到这个
+		ItemTooltipEnemy: 火系 - 50 DPS + 5 每次点击 （最大 500 DPS）
 	}
 
 	ClickerfinBuff: {
 		DisplayName: 点鱼击之怒
 		Description: 增加25%点击伤害
+	}
+
+	GChargeBuff: {
+		DisplayName: G-Charge
+		Description: 根据每秒点击次数提升点击伤害，但是点击效果变得少见
 	}
 }
 
